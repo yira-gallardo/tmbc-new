@@ -71,9 +71,9 @@ export default function Home() {
               <h1 className="text-4xl font-bold text-zinc-500">About Us</h1>
               <p className="text-lg text-zinc-500">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.<br></br>
+                industry. Lorem Ipsum has been the industrys standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.<br></br>
                 It has survived not only five centuries, but also the leap into
                 electronic typesetting, remaining essentially unchanged. It was
                 popularised in the 1960s with the <br></br>release of Letraset
@@ -108,9 +108,9 @@ export default function Home() {
               <h1 className="text-4xl font-bold text-zinc-500">CONTACT US</h1>
               <p className="text-lg text-zinc-500">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.<br></br>
+                industry. Lorem Ipsum has been the industrys standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.<br></br>
                 It has survived not only five centuries, but also the leap into
                 electronic typesetting, remaining essentially unchanged. It was
                 popularised in the 1960s with the <br></br>release of Letraset
@@ -126,13 +126,13 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="conteiner bg-slate-50 bg-slate-200">
+          <div className="conteiner bg-slate-50 bg-gray-500">
             <div className="bg-red -mt-20 p-24  ">
               <h1>
-                {" "}
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.<br></br>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industrys standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.<br></br>
                 It has survived not only five centuries, but also the leap into
                 electronic typesetting, remaining essentially unchanged. It was
                 popularised in the 1960s with the <br></br>release of Letraset
@@ -148,9 +148,132 @@ export default function Home() {
               </h1>
             </div>
           </div>
+          <div className="container mx-auto max-w-screen-lg relative">
+            <div className=" bg-slate-300 -mt-20 p-10">
+              <h1 className="text-red-600 font-bold text-xl">OUR PARTNERS:</h1>
+              <div className="columns-4">
+                <div className="column">
+                  <Image
+                    src="/img/ae.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+                <div className="column">
+                  <Image
+                    src="/img/calvin.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+                <div className="column">
+                  <Image
+                    src="/img/caribecooler.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+                <div className="column">
+                  <Image
+                    src="/img/cyzone.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+              </div>
+              <div className="columns-4">
+                <div className="column">
+                  <Image
+                    src="/img/donramon.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+                <div className="column">
+                  <Image
+                    src="/img/levis.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+                <div className="column">
+                  <Image
+                    src="/img/mac.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+                <div className="column">
+                  <Image
+                    src="/img/mercadolibre.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+              </div>
+              <div className="columns-4">
+                <div className="column">
+                  <Image
+                    src="/img/omoda.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+                <div className="column">
+                  <Image
+                    src="/img/shein.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+
+                <div className="column">
+                  <Image
+                    src="/img/stf.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+                <div className="column">
+                  <Image
+                    src="/img/puma.png"
+                    alt="TMBC"
+                    width={1522}
+                    height={340}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div></div>
       </section>
+      <div className="bg-red-600 py-8 max-w-screen-2x1">
+        <div className="columns-4 text-center">
+          <div className="column">
+            <h1>lorem ipsum</h1>
+          </div>
+          <div className="column">
+            <h1>lorem ipsum</h1>
+          </div>
+          <div className="column">
+            <h1>lorem ipsum</h1>
+          </div>
+          <div className="column">
+            <h1>lorem ipsum</h1>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
