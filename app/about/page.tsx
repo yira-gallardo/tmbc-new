@@ -1,8 +1,7 @@
-import Footer from "@/components/Layout/Footer/Footer";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default function About() {
   return (
     <main>
       {/* NAV MENU */}
@@ -259,8 +258,22 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <Footer />
+      <div className="bg-red-600 py-8 max-w-screen-2x1">
+        <div className="columns-4 text-center">
+          <div className="column">
+            <h1>lorem ipsum</h1>
+          </div>
+          <div className="column">
+            <h1>lorem ipsum</h1>
+          </div>
+          <div className="column">
+            <h1>lorem ipsum</h1>
+          </div>
+          <div className="column">
+            <h1>lorem ipsum</h1>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
