@@ -15,3 +15,14 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+.text-tmbc {
+  background: linear-gradient(to right, red, rgb(157, 0, 214), blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+.bg-tmbc {
+  background: linear-gradient(to right, red, rgb(157, 0, 214), blue);
+}
