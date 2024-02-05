@@ -1,15 +1,12 @@
-import Divider from "@/components/Layout/Footer/UI/Divider/Divider";
+import Divider from "@/components/UI/Divider/Divider";
 import Footer from "@/components/Layout/Footer/Footer";
 import Nav from "@/components/Layout/Nav/Nav";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function About() {
   return (
     <main>
-      {/* NAV MENU */}
       <Nav />
-      {/* HERO */}
       <section>
         <div className="mx-auto">
           <div className="w-full">
@@ -22,11 +19,10 @@ export default function About() {
             />
           </div>
           <div className="container mx-auto relative bg-white">
-            {/* ESTA SIGUIENTE LINEA ES LA QUE SE REUTILIZA ADENTRO DE LOS DIVS PARA CONTENER */}
             <div className="max-w-screen-xl mx-auto">
-              <div className="-mt-20 p-20">
+              <div className="-mt-20 py-20">
                 <Divider />
-                <h2 className="text-4xl font-black text-tmbc mb-8">ABOUT</h2>
+                <h2 className="text-4xl font-bold text-tmbc mb-8">ABOUT</h2>
                 <p className="text-lg text-zinc-500">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industrys
@@ -51,41 +47,30 @@ export default function About() {
           </div>
           <div className="bg-tmbc">
             <div className="max-w-screen-xl mx-auto">
-              <div className="bg-red -mt-20 p-24 text-slate-100 ">
-                <div className="w-[30px] h-[15px] bg-slate-50 my-16" />
-                <h1 className="font-bold text-4xl">Location</h1>
-                <h3 className="pt-6">MONTERREY</h3>
-                <div className="w-[60px] h-[2px] bg-slate-50 my-5"> </div>
-                <h3 className="">MERIDA</h3>
-                <div className="w-[60px] h-[2px] bg-slate-50 my-5"> </div>
-                <h3 className="">GUADALAJARA</h3>
-                <div className="w-[60px] h-[2px] bg-slate-50 my-5"> </div>
-                <h3 className="mb-16">CIUDAD DE MÉXICO</h3>
+              <div className="bg-red -mt-20 pt-36 pb-32 text-slate-100 ">
+                <Divider color="white" />
+                <h3 className="font-bold text-4xl">LOCATION</h3>
+                <h4 className="text-2xl pt-6">MONTERREY</h4>
+                <div className="w-[60px] h-[2px] bg-slate-50 my-2" />
+                <h4 className="text-2xl pt-6">MERIDA</h4>
+                <div className="w-[60px] h-[2px] bg-slate-50 my-2" />
+                <h4 className="text-2xl pt-6">GUADALAJARA</h4>
+                <div className="w-[60px] h-[2px] bg-slate-50 my-2" />
+                <h4 className="text-2xl pt-6">CIUDAD DE MÉXICO</h4>
+                <div className="w-[60px] h-[2px] bg-slate-50 my-2" />
               </div>
             </div>
           </div>
           <div className="container mx-auto relative bg-white">
-            {/* ESTA SIGUIENTE LINEA ES LA QUE SE REUTILIZA ADENTRO DE LOS DIVS PARA CONTENER */}
             <div className="max-w-screen-xl mx-auto">
-              <div className="-mt-20 p-20">
+              <div className="-mt-20 py-20">
                 <Divider />
-                <h2 className="text-4xl font-black text-tmbc mb-8">
+                <h3 className="font-bold text-4xl text-tmbc mb-4">
                   CONTACT US
-                </h2>
+                </h3>
                 <p className="text-lg text-zinc-500">
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industrys standard dummy text ever since the 1500s, when an
-                  unknown printer took a galley of type and scrambled it to make
-                  a type specimen book. Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industrys standard dummy text ever since the 1500s, when an
-                  unknown printer took a galley of type and scrambled it to make
-                  a type specimen book.
+                  typesetting industry.
                 </p>
                 <div className="my-20">
                   <form>
@@ -98,7 +83,7 @@ export default function About() {
                       className="w-full p-4 mb-4 font-bold border-2 border-red-600 h-80"
                       placeholder="Tu mensaje"
                     />
-                    <button className="w-full p-4 text-white font-black bg-red-600">
+                    <button className="w-full p-4 text-white font-black bg-tmbc">
                       Enviar
                     </button>
                   </form>
@@ -106,12 +91,13 @@ export default function About() {
               </div>
             </div>
           </div>
-          ;{/* CONTACT FORM */}
           <div className="bg-tmbc">
             <div className="max-w-screen-xl mx-auto">
-              <div className="bg-red -mt-20 p-24 text-slate-100 ">
-                <div className="w-[30px] h-[15px] bg-slate-50 my-16" />
-                <h1 className="font-bold text-4xl"> OUR PARTNERS:</h1>
+              <div className="bg-red -mt-20 py-40 text-slate-100">
+                <Divider color="white" />
+                <h3 className="font-bold text-4xl text-white mb-4">
+                  OUR PARTNERS
+                </h3>
                 <div className="columns-4">
                   <div className="column">
                     <Image
@@ -197,7 +183,6 @@ export default function About() {
                       height={340}
                     />
                   </div>
-
                   <div className="column">
                     <Image
                       src="/img/stf.png"

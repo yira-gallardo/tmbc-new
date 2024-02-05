@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-tmbc text-white mt-16">
+    <footer className="bg-tmbc text-white">
       <div className="container mx-auto">
-        <div className="py-20 max-w-screen-2x1">
-          <div className="text-center grid grid-cols-4 items-center">
+        <div className="py-20 max-w-screen-xl mx-auto">
+          <div className="grid grid-cols-4 items-center">
             <div className="">
               <Link href="/" className="w-[200px]">
                 <Image
-                  src="/img/logo.webp"
+                  src="/img/logo-white.png"
                   alt="TMBC"
                   width={1322}
                   height={240}
@@ -56,7 +56,7 @@ export default function Footer() {
             </div>
             <div />
             <div className="">
-              <h1 className="font-black">2024 ®The Music Bussines Company</h1>
+              <h1 className="font-bold">2024 ®The Music Bussines Company</h1>
             </div>
           </div>
         </div>
