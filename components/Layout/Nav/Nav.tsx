@@ -46,7 +46,7 @@ export default function Nav() {
                       "text-tmbc": pathname === "/artistas",
                     })}
                   >
-                    Artistas
+                    ARTISTS
                   </Link>
                 </li>
                 <li>
@@ -56,7 +56,17 @@ export default function Nav() {
                       "text-tmbc": pathname === "/shows",
                     })}
                   >
-                    Shows
+                    SHOWS
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/shows"
+                    className={classnames("link-tmbc", {
+                      "text-tmbc": pathname === "/shows",
+                    })}
+                  >
+                    NEWS/PRESS
                   </Link>
                 </li>
                 <li>
@@ -66,7 +76,7 @@ export default function Nav() {
                       "text-tmbc": pathname === "/musica",
                     })}
                   >
-                    Música
+                    MUSIC
                   </Link>
                 </li>
               </ul>
