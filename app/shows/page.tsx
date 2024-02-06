@@ -8,16 +8,16 @@ import Divider from "@/components/UI/Divider/Divider";
 const items = [
   { src: "/img/shows/show-1.jpeg", alt: "Description of image 1" },
   { src: "/img/shows/show-2.jpg", alt: "Description of image 2" },
-  { src: "/img/shows/show-3.jpeg", alt: "Description of image 1" },
+  { src: "/img/shows/show-10.jpg", alt: "Description of image 1" },
   { src: "/img/shows/show-4.jpg", alt: "Description of image 2" },
   { src: "/img/shows/show-5.jpg", alt: "Description of image 1" },
-  { src: "/img/shows/show-6.jpg", alt: "Description of image 2" },
-  { src: "/img/shows/show-1.jpeg", alt: "Description of image 1" },
-  { src: "/img/shows/show-2.jpg", alt: "Description of image 2" },
-  { src: "/img/shows/show-3.jpeg", alt: "Description of image 1" },
-  { src: "/img/shows/show-4.jpg", alt: "Description of image 2" },
-  { src: "/img/shows/show-5.jpg", alt: "Description of image 1" },
-  { src: "/img/shows/show-6.jpg", alt: "Description of image 2" },
+  { src: "/img/shows/show-12.jpg", alt: "Description of image 2" },
+  { src: "/img/shows/show-9.jpg", alt: "Description of image 1" },
+  { src: "/img/shows/show-3.jpeg", alt: "Description of image 2" },
+  { src: "/img/shows/show-6.jpg", alt: "Description of image 1" },
+  { src: "/img/shows/show-7.jpeg", alt: "Description of image 2" },
+  { src: "/img/shows/show-8.jpg", alt: "Description of image 1" },
+  { src: "/img/shows/show-11.jpg", alt: "Description of image 2" },
 ];
 
 export default function Shows() {

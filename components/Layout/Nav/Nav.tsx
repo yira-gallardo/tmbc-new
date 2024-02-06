@@ -41,7 +41,7 @@ export default function Nav() {
                       "text-tmbc": pathname === "/music-and-management",
                     })}
                   >
-                    MUSIC AND MANAGEMENT
+                    MUSIC
                   </Link>
                 </li>
                 <li>
@@ -66,12 +66,12 @@ export default function Nav() {
                 </li>
                 <li>
                   <Link
-                    href="/musica"
+                    href="/artistas"
                     className={classnames("link-tmbc", {
-                      "text-tmbc": pathname === "/musica",
+                      "text-tmbc": pathname === "/artistas",
                     })}
                   >
-                    MUSIC
+                    ARTISTS
                   </Link>
                 </li>
               </ul>

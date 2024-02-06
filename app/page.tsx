@@ -27,7 +27,8 @@ export default function Home() {
           <h2 className="text-2xl font-bold uppercase">News & Press</h2>
           <div className="my-20">
             <Link
-              href="/"
+              href="https://www.excelsior.com.mx/funcion/danna-paola-cantara-himno-nacional-en-pelea-de-canelo-alvarez-contra-jermell-charlo/1608194"
+              target="_blank"
               className="grid grid-cols-2 items-center hover:bg-zinc-100"
             >
               <div className="w-full h-[400px] relative">
@@ -41,8 +42,8 @@ export default function Home() {
               <div className="p-10">
                 <h4 className="text-3xl font-bold uppercase">Danna Paola</h4>
                 <p>
-                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem
-                  ipsum dolor sit amet
+                  Danna Paola cantaría el Himno Nacional en la pelea de 'Canelo'
+                  Álvarez contra Jermell Charlo
                 </p>
                 <button className="font-bold my-4 hover:underline">
                   Ver más
@@ -50,22 +51,19 @@ export default function Home() {
               </div>
             </Link>
             <Link
-              href="/"
+              href="https://mx.hola.com/famosos/2023073048451/danna-paola-steve-aoki-paris-hilton-tomorrowland-presentacion/"
               className="grid grid-cols-2 items-center hover:bg-zinc-100"
             >
               <div className="p-10">
-                <h4 className="text-3xl font-bold uppercase">Alex Hoyer</h4>
-                <p>
-                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem
-                  ipsum dolor sit amet
-                </p>
+                <h4 className="text-3xl font-bold uppercase">Danna Paola</h4>
+                <p>Danna Paola y su exitoso debut en el Tomorrowland</p>
                 <button className="font-bold my-4 hover:underline">
                   Ver más
                 </button>
               </div>
               <div className="w-full h-[400px] relative">
                 <Image
-                  src="/img/alex-hoyer.jpg"
+                  src="/img/danna-paola.jpg"
                   alt="Press 1"
                   layout="fill"
                   objectFit="cover"
@@ -85,7 +83,7 @@ export default function Home() {
             <div className="w-1/2">
               <div>
                 <Image
-                  src="/img/danna-cover.jpg"
+                  src="/img/danna-st.jpg"
                   alt="Last Release 1"
                   width={800}
                   height={800}
@@ -98,14 +96,15 @@ export default function Home() {
                   className=" 
                 text-5xl font-bold text-white uppercase"
                 >
-                  AÚN TE QUIERO
+                  PARANOIA
                 </h4>
                 <h3 className="text-2xl font-bold text-white uppercase">
-                  DANNA PAOLA
+                  DANNA PAOLA / STEVE AOKI
                 </h3>
                 <Divider color="white" />
                 <Link
-                  href="/danna-paola"
+                  href="https://www.youtube.com/watch?v=_c7kKUWO4wU"
+                  target="_blank"
                   className="font-bold text-white uppercase"
                 >
                   Escuchar ahora
