@@ -20,6 +20,61 @@ export default function Home() {
           ></iframe>
         </div>
       </section>
+      {/* NEWS */}
+      <section className="container mx-auto pt-10">
+        <div className="max-w-screen-xl mx-auto py-20">
+          <Divider />
+          <h2 className="text-2xl font-bold uppercase">News & Press</h2>
+          <div className="my-20">
+            <Link
+              href="/"
+              className="grid grid-cols-2 items-center hover:bg-zinc-100"
+            >
+              <div className="w-full h-[400px] relative">
+                <Image
+                  src="/img/danna-paola.jpg"
+                  alt="Press 1"
+                  layout="fill"
+                  objectFit="cover"
+                />
+              </div>
+              <div className="p-10">
+                <h4 className="text-3xl font-bold uppercase">Danna Paola</h4>
+                <p>
+                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem
+                  ipsum dolor sit amet
+                </p>
+                <button className="font-bold my-4 hover:underline">
+                  Ver más
+                </button>
+              </div>
+            </Link>
+            <Link
+              href="/"
+              className="grid grid-cols-2 items-center hover:bg-zinc-100"
+            >
+              <div className="p-10">
+                <h4 className="text-3xl font-bold uppercase">Alex Hoyer</h4>
+                <p>
+                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem
+                  ipsum dolor sit amet
+                </p>
+                <button className="font-bold my-4 hover:underline">
+                  Ver más
+                </button>
+              </div>
+              <div className="w-full h-[400px] relative">
+                <Image
+                  src="/img/alex-hoyer.jpg"
+                  alt="Press 1"
+                  layout="fill"
+                  objectFit="cover"
+                />
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
       <section className="bg-tmbc">
         <div className="container mx-auto max-w-screen-xl py-20">
           <Divider color="white" />

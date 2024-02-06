@@ -1,0 +1,11 @@
+.grid {
+  column-count: 4;
+  column-gap: 1px;
+  row-gap: 1px;
+}
+
+.gridItem {
+  break-inside: avoid;
+  margin-bottom: 1px;
+  width: 100%;
+}

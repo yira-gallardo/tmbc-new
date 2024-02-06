@@ -25,28 +25,23 @@ export default function Nav() {
             <div className="nav-menu flex items-center justify-center">
               <ul className="flex gap-10 font-bold uppercase">
                 <li>
-                  <Link href="/" className="link-tmbc">
-                    Inicio
-                  </Link>
-                </li>
-                <li>
                   <Link
                     href="/about"
                     className={classnames("link-tmbc", {
                       "text-tmbc": pathname === "/about",
                     })}
                   >
-                    About
+                    ABOUT
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/artistas"
+                    href="/music-and-management"
                     className={classnames("link-tmbc", {
-                      "text-tmbc": pathname === "/artistas",
+                      "text-tmbc": pathname === "/music-and-management",
                     })}
                   >
-                    ARTISTS
+                    MUSIC AND MANAGEMENT
                   </Link>
                 </li>
                 <li>
@@ -61,9 +56,9 @@ export default function Nav() {
                 </li>
                 <li>
                   <Link
-                    href="/shows"
+                    href="/news-press"
                     className={classnames("link-tmbc", {
-                      "text-tmbc": pathname === "/shows",
+                      "text-tmbc": pathname === "/news-press",
                     })}
                   >
                     NEWS/PRESS
