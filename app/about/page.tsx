@@ -217,7 +217,7 @@ export default function About() {
                         height={340}
                       />
                     </div>
-                    <div className=" flex justify-center items-center">
+                    <div className="flex justify-center items-center">
                       <Image
                         src="/img/puma.png"
                         alt="TMBC"
