@@ -131,7 +131,7 @@ export default function About() {
                   <Slider {...settings}>
                     <div className="">
                       <Image
-                        src="/img/ae.png"
+                        src="/img/partners/ae.png"
                         alt="TMBC"
                         width={1522}
                         height={340}
@@ -139,7 +139,7 @@ export default function About() {
                     </div>
                     <div className="">
                       <Image
-                        src="/img/calvin.png"
+                        src="/img/partners/calvin.png"
                         alt="TMBC"
                         width={1522}
                         height={340}
@@ -147,7 +147,7 @@ export default function About() {
                     </div>
                     <div className="">
                       <Image
-                        src="/img/caribecooler.png"
+                        src="/img/partners/caribecooler.png"
                         alt="TMBC"
                         width={1522}
                         height={340}
@@ -155,7 +155,7 @@ export default function About() {
                     </div>
                     <div className="">
                       <Image
-                        src="/img/cyzone.png"
+                        src="/img/partners/cyzone.png"
                         alt="TMBC"
                         width={1522}
                         height={340}
@@ -163,7 +163,7 @@ export default function About() {
                     </div>
                     <div className="">
                       <Image
-                        src="/img/donramon.png"
+                        src="/img/partners/donramon.png"
                         alt="TMBC"
                         width={1522}
                         height={340}
@@ -171,7 +171,7 @@ export default function About() {
                     </div>
                     <div className="">
                       <Image
-                        src="/img/levis.png"
+                        src="/img/partners/levis.png"
                         alt="TMBC"
                         width={1522}
                         height={340}
@@ -179,7 +179,7 @@ export default function About() {
                     </div>
                     <div className="">
                       <Image
-                        src="/img/mac.png"
+                        src="/img/partners/mac.png"
                         alt="TMBC"
                         width={1522}
                         height={340}
@@ -187,7 +187,7 @@ export default function About() {
                     </div>
                     <div className="">
                       <Image
-                        src="/img/mercadolibre.png"
+                        src="/img/partners/mercadolibre.png"
                         alt="TMBC"
                         width={1522}
                         height={340}
@@ -195,7 +195,7 @@ export default function About() {
                     </div>
                     <div className="">
                       <Image
-                        src="/img/omoda.png"
+                        src="/img/partners/omoda.png"
                         alt="TMBC"
                         width={1522}
                         height={340}
@@ -203,7 +203,7 @@ export default function About() {
                     </div>
                     <div className="">
                       <Image
-                        src="/img/shein.png"
+                        src="/img/partners/shein.png"
                         alt="TMBC"
                         width={1522}
                         height={340}
@@ -211,7 +211,7 @@ export default function About() {
                     </div>
                     <div className="">
                       <Image
-                        src="/img/stf.png"
+                        src="/img/partners/stf.png"
                         alt="TMBC"
                         width={1522}
                         height={340}
@@ -219,7 +219,7 @@ export default function About() {
                     </div>
                     <div className="flex justify-center items-center">
                       <Image
-                        src="/img/puma.png"
+                        src="/img/partners/puma.png"
                         alt="TMBC"
                         width={180}
                         height={150}

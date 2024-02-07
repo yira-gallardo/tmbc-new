@@ -19,7 +19,7 @@ export default function Artist() {
                 <Link href="/">
                   <div className="w-full h-[400px] relative">
                     <Image
-                      src="/img/danna.jpg"
+                      src="/img/artists/danna.jpg"
                       alt="Danna Paola"
                       layout="fill"
                       objectFit="cover"
@@ -59,7 +59,7 @@ export default function Artist() {
                 <Link href="/">
                   <div className="w-full h-[400px] relative">
                     <Image
-                      src="/img/allison.jpg"
+                      src="/img/artists/allison.jpg"
                       alt="Allison"
                       layout="fill"
                       objectFit="cover"
@@ -76,7 +76,7 @@ export default function Artist() {
                 <Link href="/">
                   <div className="w-full h-[400px] relative">
                     <Image
-                      src="/img/mariobautista.jpg"
+                      src="/img/artists/mariobautista.jpg"
                       alt="Mario Bautista"
                       layout="fill"
                       objectFit="cover"
@@ -95,7 +95,7 @@ export default function Artist() {
                 <Link href="/">
                   <div className="w-full h-[400px] relative">
                     <Image
-                      src="/img/finde.jpg"
+                      src="/img/artists/finde.jpg"
                       alt="Finde"
                       layout="fill"
                       objectFit="cover"

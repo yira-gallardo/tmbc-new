@@ -33,7 +33,7 @@ export default function Home() {
             >
               <div className="w-full h-[400px] relative">
                 <Image
-                  src="/img/danna-paola.jpg"
+                  src="/img/artists/danna-paola.jpg"
                   alt="Press 1"
                   layout="fill"
                   objectFit="cover"
@@ -83,7 +83,7 @@ export default function Home() {
             <div className="w-1/2">
               <div>
                 <Image
-                  src="/img/danna-st.jpg"
+                  src="/img/artists/danna-paola.jpg"
                   alt="Last Release 1"
                   width={800}
                   height={800}
@@ -123,7 +123,7 @@ export default function Home() {
               <Link href="/">
                 <div className="w-full h-[400px] relative">
                   <Image
-                    src="/img/danna.jpg"
+                    src="/img/artists/danna.jpg"
                     alt="Danna Paola"
                     layout="fill"
                     objectFit="cover"
@@ -161,7 +161,7 @@ export default function Home() {
               <Link href="/">
                 <div className="w-full h-[400px] relative">
                   <Image
-                    src="/img/allison.jpg"
+                    src="/img/artists/allison.jpg"
                     alt="Allison"
                     layout="fill"
                     objectFit="cover"
@@ -178,7 +178,7 @@ export default function Home() {
               <Link href="/">
                 <div className="w-full h-[400px] relative">
                   <Image
-                    src="/img/mariobautista.jpg"
+                    src="/img/artists/mariobautista.jpg"
                     alt="Mario Bautista"
                     layout="fill"
                     objectFit="cover"
@@ -197,7 +197,7 @@ export default function Home() {
               <Link href="/">
                 <div className="w-full h-[400px] relative">
                   <Image
-                    src="/img/finde.jpg"
+                    src="/img/artists/finde.jpg"
                     alt="Finde"
                     layout="fill"
                     objectFit="cover"
