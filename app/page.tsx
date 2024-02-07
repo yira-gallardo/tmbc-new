@@ -63,7 +63,7 @@ export default function Home() {
               </div>
               <div className="w-full h-[400px] relative">
                 <Image
-                  src="/img/danna-paola.jpg"
+                  src="/img/artists/danna-paola.jpg"
                   alt="Press 1"
                   layout="fill"
                   objectFit="cover"
