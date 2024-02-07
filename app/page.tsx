@@ -42,7 +42,7 @@ export default function Home() {
               <div className="p-10">
                 <h4 className="text-3xl font-bold uppercase">Danna Paola</h4>
                 <p>
-                  Danna Paola cantaría el Himno Nacional en la pelea de "Canelo"
+                  Danna Paola cantaría el Himno Nacional en la pelea de Canelo
                   Álvarez contra Jermell Charlo
                 </p>
                 <button className="font-bold my-4 hover:underline">
