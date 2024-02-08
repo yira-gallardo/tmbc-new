@@ -2,15 +2,29 @@
 import { motion } from "framer-motion";
 
 interface AnimationProps {
+  initial?: any;
+  animate?: any;
+  transition?: any;
+  whileInView?: any;
+  viewport?: any;
   children?: React.ReactNode;
 }
 
-export default function Animation({ children }: AnimationProps) {
+export default function Animation({
+  initial,
+  animate,
+  transition,
+  whileInView,
+  viewport,
+  children,
+}: AnimationProps) {
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5 }}
+      initial={initial}
+      animate={animate}
+      transition={transition}
+      whileInView={whileInView}
+      viewport={viewport}
     >
       {children}
     </motion.div>
