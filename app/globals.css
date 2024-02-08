@@ -71,3 +71,10 @@
 .imagen-escondida:hover .tmbc-socials {
   display: flex;
 }
+
+.imagen-escondida-derecha .tmbc-socials {
+  display: none;
+}
+.imagen-escondida-derecha:hover .tmbc-socials {
+  display: flex;
+}
