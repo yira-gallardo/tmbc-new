@@ -9,7 +9,6 @@ export default function Artist() {
   return (
     <main>
       <Nav />
-
       <section className="container mx-auto">
         <div className="max-w-screen-xl mx-auto py-20">
           <Divider />
