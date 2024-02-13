@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-tmbc text-white">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <div className="py-20 max-w-screen-xl mx-auto">
-          <div className="grid grid-cols-4 items-center">
-            <div className="">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center gap-8">
+            <div className="flex justify-center md:justify-start">
               <Link href="/" className="w-[200px]">
                 <Image
                   src="/img/logo-white.png"
@@ -55,8 +55,10 @@ export default function Footer() {
               </Link>
             </div>
             <div />
-            <div className="">
-              <h1 className="font-bold">2024 ®The Music Bussines Company</h1>
+            <div className="flex justify-center md:justify-end">
+              <h1 className="font-bold text-center md:text-righ">
+                2024 ®The Music Bussines Company
+              </h1>
             </div>
           </div>
         </div>
