@@ -74,6 +74,16 @@ export default function Nav() {
                     ARTISTS
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/tmbc-sport"
+                    className={classnames("link-tmbc", {
+                      "text-tmbc": pathname === "/tmbc-sport",
+                    })}
+                  >
+                    TMBC SPORTS
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

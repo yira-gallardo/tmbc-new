@@ -59,7 +59,9 @@ export default function About() {
                 >
                   <Divider />
 
-                  <h2 className="text-4xl font-bold text-tmbc mb-8">ABOUT</h2>
+                  <h2 className="text-4xl font-bold text-slate-900 mb-8">
+                    ABOUT
+                  </h2>
                   <p className="text-lg text-zinc-500">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -89,7 +91,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="bg-tmbc">
+          <div className="bg-neutral-900">
             <div className="max-w-screen-lg mx-auto">
               <Animation
                 initial={{ opacity: 0, y: 100 }}
@@ -122,7 +124,7 @@ export default function About() {
               >
                 <div className="-mt-20 py-20">
                   <Divider />
-                  <h3 className="font-bold text-4xl text-tmbc mb-4">
+                  <h3 className="font-bold text-4xl text-slate-900 mb-4">
                     CONTACT US
                   </h3>
                   <p className="text-lg text-zinc-500">
@@ -135,133 +137,16 @@ export default function About() {
                       <input
                         type="text"
                         placeholder="Email"
-                        className="w-full p-4 font-bold border-2 border-red-600 border-b-0"
+                        className="w-full p-4 font-bold border-2 border-slate-900 border-b-0"
                       />
                       <textarea
-                        className="w-full p-4 mb-4 font-bold border-2 border-red-600 h-80"
+                        className="w-full p-4 mb-4 font-bold border-2 border-slate-900 h-80"
                         placeholder="Tu mensaje"
                       />
-                      <button className="w-full p-4 text-white font-black bg-tmbc">
+                      <button className="w-full p-4 text-white font-black bg-neutral-900">
                         Enviar
                       </button>
                     </form>
-                  </div>
-                </div>
-              </Animation>
-            </div>
-          </div>
-          <div className="bg-tmbc">
-            <div className="max-w-screen-lg mx-auto">
-              <Animation
-                initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-              >
-                <div className="bg-red -mt-20 py-40 text-slate-100">
-                  <Divider color="white" />
-                  <h3 className="font-bold text-4xl text-white mb-4">
-                    OUR PARTNERS
-                  </h3>
-                  <div>
-                    <Slider {...settings}>
-                      <div className="">
-                        <Image
-                          src="/img/partners/ae.png"
-                          alt="TMBC"
-                          width={1522}
-                          height={340}
-                        />
-                      </div>
-                      <div className="">
-                        <Image
-                          src="/img/partners/calvin.png"
-                          alt="TMBC"
-                          width={1522}
-                          height={340}
-                        />
-                      </div>
-                      <div className="">
-                        <Image
-                          src="/img/partners/caribecooler.png"
-                          alt="TMBC"
-                          width={1522}
-                          height={340}
-                        />
-                      </div>
-                      <div className="">
-                        <Image
-                          src="/img/partners/cyzone.png"
-                          alt="TMBC"
-                          width={1522}
-                          height={340}
-                        />
-                      </div>
-                      <div className="">
-                        <Image
-                          src="/img/partners/donramon.png"
-                          alt="TMBC"
-                          width={1522}
-                          height={340}
-                        />
-                      </div>
-                      <div className="">
-                        <Image
-                          src="/img/partners/levis.png"
-                          alt="TMBC"
-                          width={1522}
-                          height={340}
-                        />
-                      </div>
-                      <div className="">
-                        <Image
-                          src="/img/partners/mac.png"
-                          alt="TMBC"
-                          width={1522}
-                          height={340}
-                        />
-                      </div>
-                      <div className="">
-                        <Image
-                          src="/img/partners/mercadolibre.png"
-                          alt="TMBC"
-                          width={1522}
-                          height={340}
-                        />
-                      </div>
-                      <div className="">
-                        <Image
-                          src="/img/partners/omoda.png"
-                          alt="TMBC"
-                          width={1522}
-                          height={340}
-                        />
-                      </div>
-                      <div className="">
-                        <Image
-                          src="/img/partners/shein.png"
-                          alt="TMBC"
-                          width={1522}
-                          height={340}
-                        />
-                      </div>
-                      <div className="">
-                        <Image
-                          src="/img/partners/stf.png"
-                          alt="TMBC"
-                          width={1522}
-                          height={340}
-                        />
-                      </div>
-                      <div className="flex justify-center items-center">
-                        <Image
-                          src="/img/partners/puma.png"
-                          alt="TMBC"
-                          width={180}
-                          height={150}
-                        />
-                      </div>
-                    </Slider>
                   </div>
                 </div>
               </Animation>

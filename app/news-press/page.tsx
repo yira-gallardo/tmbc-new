@@ -31,7 +31,7 @@ export default function NewsPress() {
               </Link>
             </div>
             <div className="col-span-3">
-              <h3 className="text-xl font-bold mt-5 text-tmbc">
+              <h3 className="text-xl font-bold mt-5 text-slate-900">
                 <Link href="/news-press/1">News 1</Link>
               </h3>
               {/* date */}
@@ -61,7 +61,7 @@ export default function NewsPress() {
               </Link>
             </div>
             <div className="col-span-3">
-              <h3 className="text-xl font-bold mt-5 text-tmbc">
+              <h3 className="text-xl font-bold mt-5 text-slate-900">
                 <Link href="/news-press/1">News 1</Link>
               </h3>
               {/* date */}
@@ -90,7 +90,7 @@ export default function NewsPress() {
               </Link>
             </div>
             <div className="col-span-3">
-              <h3 className="text-xl font-bold mt-5 text-tmbc">
+              <h3 className="text-xl font-bold mt-5 text-slate-900">
                 <Link href="/news-press/1">News 1</Link>
               </h3>
               {/* date */}
@@ -119,7 +119,7 @@ export default function NewsPress() {
               </Link>
             </div>
             <div className="col-span-3">
-              <h3 className="text-xl font-bold mt-5 text-tmbc">
+              <h3 className="text-xl font-bold mt-5 text-slate-900">
                 <Link href="/news-press/1">News 1</Link>
               </h3>
               {/* date */}
@@ -148,7 +148,7 @@ export default function NewsPress() {
               </Link>
             </div>
             <div className="col-span-3">
-              <h3 className="text-xl font-bold mt-5 text-tmbc">
+              <h3 className="text-xl font-bold mt-5 text-slate-900">
                 <Link href="/news-press/1">News 1</Link>
               </h3>
               {/* date */}
@@ -177,7 +177,7 @@ export default function NewsPress() {
               </Link>
             </div>
             <div className="col-span-3">
-              <h3 className="text-xl font-bold mt-5 text-tmbc">
+              <h3 className="text-xl font-bold mt-5 text-slate-900">
                 <Link href="/news-press/1">News 1</Link>
               </h3>
               {/* date */}
@@ -206,7 +206,7 @@ export default function NewsPress() {
               </Link>
             </div>
             <div className="col-span-3">
-              <h3 className="text-xl font-bold mt-5 text-tmbc">
+              <h3 className="text-xl font-bold mt-5 text-slate-900">
                 <Link href="/news-press/1">News 1</Link>
               </h3>
               {/* date */}

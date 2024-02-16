@@ -1,29 +1,54 @@
+"use client";
 import Footer from "@/components/Layout/Footer/Footer";
 import Nav from "@/components/Layout/Nav/Nav";
 import Divider from "@/components/UI/Divider/Divider";
 import Image from "next/image";
 import Link from "next/link";
 import Animation from "@/components/UI/Animation/Animation";
+import dynamic from "next/dynamic";
+
+const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 export default function Home() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [
+      {
+        breakpoint: 1024, // Width up to 1024px
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 480, // Width up to 480px
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
+  };
+
   return (
     <main className="overflow-hidden">
       <Nav />
       <section className="container mx-auto p-8 md:p-0 md:pt-10 ">
-        <div className="max-w-screen-xl mx-auto py-20">
+        <div className="max-w-screen-lg mx-auto py-20">
           <Animation
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <iframe
-              width="100%"
-              height="700"
-              src="https://www.youtube.com/embed/6AJHbI8MqqU?si=wJE_fwpW6Q_0I7lj"
-              title="YouTube video player"
-              allowFullScreen
-              className="w-full h-[400px] md:h-[700px]"
-            ></iframe>
+            <video controls>
+              <source src="/img/tmbc-video.mp4" type="video/mp4" />
+            </video>
           </Animation>
         </div>
       </section>
@@ -105,7 +130,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-tmbc">
+      <section className="bg-neutral-900">
         <div className="container mx-auto max-w-screen-xl py-20 px-4 sm:px-6 lg:px-8">
           <Divider color="white" />
           <h2 className="text-2xl font-bold text-white uppercase">
@@ -772,6 +797,128 @@ export default function Home() {
           </section>
         </div>
       </section>
+      <section className="container max-w-screen-xl mx-auto py-40">
+        <Divider />
+        <h2 className="text-2xl font-bold uppercase">TMBC SPORTS</h2>
+        <h3 className="text-center text-xl">PRÓXIMAMENTE</h3>
+      </section>
+      <div className="bg-neutral-900">
+        <div className="max-w-screen-lg mx-auto">
+          <Animation
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
+            <div className="bg-red -mt-20 py-40 text-slate-100">
+              <Divider color="white" />
+              <h3 className="font-bold text-4xl text-white mb-4">
+                OUR PARTNERS
+              </h3>
+              <div>
+                <Slider {...settings}>
+                  <div className="">
+                    <Image
+                      src="/img/partners/ae.png"
+                      alt="TMBC"
+                      width={1522}
+                      height={340}
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      src="/img/partners/calvin.png"
+                      alt="TMBC"
+                      width={1522}
+                      height={340}
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      src="/img/partners/caribecooler.png"
+                      alt="TMBC"
+                      width={1522}
+                      height={340}
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      src="/img/partners/cyzone.png"
+                      alt="TMBC"
+                      width={1522}
+                      height={340}
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      src="/img/partners/donramon.png"
+                      alt="TMBC"
+                      width={1522}
+                      height={340}
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      src="/img/partners/levis.png"
+                      alt="TMBC"
+                      width={1522}
+                      height={340}
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      src="/img/partners/mac.png"
+                      alt="TMBC"
+                      width={1522}
+                      height={340}
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      src="/img/partners/mercadolibre.png"
+                      alt="TMBC"
+                      width={1522}
+                      height={340}
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      src="/img/partners/omoda.png"
+                      alt="TMBC"
+                      width={1522}
+                      height={340}
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      src="/img/partners/shein.png"
+                      alt="TMBC"
+                      width={1522}
+                      height={340}
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      src="/img/partners/stf.png"
+                      alt="TMBC"
+                      width={1522}
+                      height={340}
+                    />
+                  </div>
+                  <div className="flex justify-center items-center">
+                    <Image
+                      src="/img/partners/puma.png"
+                      alt="TMBC"
+                      width={180}
+                      height={150}
+                    />
+                  </div>
+                </Slider>
+              </div>
+            </div>
+          </Animation>
+        </div>
+      </div>
       <Footer />
     </main>
   );
