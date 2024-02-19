@@ -70,6 +70,7 @@ export default function Home() {
             >
               {NEWS.map((newsItem: any, numeroIndice: number) => (
                 <Link
+                  key={numeroIndice}
                   href={newsItem.link}
                   target="_blank"
                   className="grid grid-cols-1 sm:grid-cols-2 items-center hover:bg-zinc-100"
@@ -174,7 +175,7 @@ export default function Home() {
             <div className="max-w-screen-xl mx-auto py-20">
               <div className="grid grid-cols-2 py-10 items-center">
                 {ARTISTS.map((artist, conteo) => (
-                  <div className="relative ">
+                  <div key={conteo} className="relative ">
                     <Animation
                       initial={{ opacity: 0, y: 100 }}
                       whileInView={{ opacity: 1, y: 0 }}

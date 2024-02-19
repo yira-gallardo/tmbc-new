@@ -21,13 +21,14 @@ export default function Music() {
           <h2 className="text-2xl font-bold uppercase">Music</h2>
 
           <div className="grid grid-cols-5 my-20">
-            {MUSIC.map((item) => (
-              <Link href={item.link} className="w-full relative">
+            {MUSIC.map((item, index) => (
+              <Link key={index} href={item.link} className="w-full relative">
                 <Image
                   src={item.image}
                   alt="Danna Paola - Nombre de la canción"
                   width={1000}
                   height={1000}
+                  unoptimized={true}
                 />
                 <div className="absolute top-0 opacity-0 left-0 w-full h-full bg-black bg-opacity-70 flex items-center justify-center font-bold text-white text-2xl hover:opacity-100">
                   Escuchar
