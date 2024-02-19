@@ -28,7 +28,7 @@ export default function Nav() {
                   <Link
                     href="/about"
                     className={classnames("link-tmbc", {
-                      "text-tmbc": pathname === "/about",
+                      "text-slate-600": pathname === "/about",
                     })}
                   >
                     ABOUT
@@ -38,7 +38,7 @@ export default function Nav() {
                   <Link
                     href="/music-and-management"
                     className={classnames("link-tmbc", {
-                      "text-tmbc": pathname === "/music-and-management",
+                      "text-slate-600": pathname === "/music-and-management",
                     })}
                   >
                     MUSIC
@@ -82,6 +82,16 @@ export default function Nav() {
                     })}
                   >
                     TMBC SPORTS
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/contacto"
+                    className={classnames("link-tmbc", {
+                      "text-tmbc": pathname === "/contacto",
+                    })}
+                  >
+                    CONTACT
                   </Link>
                 </li>
               </ul>

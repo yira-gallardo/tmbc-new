@@ -8,8 +8,8 @@ const MasonryGrid = ({ items }: any) => {
       {items.map((item: any, index: number) => (
         <div key={index} className={styles.gridItem}>
           <img
-            src={item.src}
-            alt={item.alt}
+            src={item.image}
+            alt={item.show}
             style={{ width: "100%", height: "auto" }}
           />
         </div>

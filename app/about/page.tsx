@@ -62,94 +62,23 @@ export default function About() {
                   <h2 className="text-4xl font-bold text-slate-900 mb-8">
                     ABOUT
                   </h2>
-                  <p className="text-lg text-zinc-500">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
+                  <h3 className="text-lg text-zinc-500">¿Quiénes somos?</h3>
+                  <h3 className="text-lg text-zinc-500">
+                    TMBC es una agencia fundada en 2022 liderada por
+                    personalidades que se han especializado por más de 15 años
+                    en la industria del entretenimiento. Entre nuestros
+                    principales servicios se encuentran el management y el
+                    booking, así como la comercialización de nuestros artistas
+                    con marcas. <br></br>En poco tiempo, TMBC ha logrado
+                    posicionar a sus artistas en un alto nivel al hacerlos parte
+                    de los eventos más reconocidos en habla hispana y alrededor
+                    del mundo.<br></br> El brazo de la compañía se extiende para
+                    trabajar de manera continua con talentos internacionales. A
+                    corto plazo TMBC tiene el proyecto de expandir sus oficinas
+                    en EU y Latinoamérica.
+                  </h3>
                 </Animation>
               </div>
-            </div>
-          </div>
-          <div className="bg-neutral-900">
-            <div className="max-w-screen-lg mx-auto">
-              <Animation
-                initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-              >
-                <div className="bg-red -mt-20 pt-36 pb-32 text-slate-100 ">
-                  <Divider color="white" />
-                  <h3 className="font-bold text-4xl">LOCATION</h3>
-                  <h4 className="text-2xl pt-6">MONTERREY</h4>
-                  <div className="w-[60px] h-[2px] bg-slate-50 my-2" />
-                  <h4 className="text-2xl pt-6">MERIDA</h4>
-                  <div className="w-[60px] h-[2px] bg-slate-50 my-2" />
-                  <h4 className="text-2xl pt-6">GUADALAJARA</h4>
-                  <div className="w-[60px] h-[2px] bg-slate-50 my-2" />
-                  <h4 className="text-2xl pt-6">CIUDAD DE MÉXICO</h4>
-                  <div className="w-[60px] h-[2px] bg-slate-50 my-2" />
-                </div>
-              </Animation>
-            </div>
-          </div>
-          <div className="container mx-auto relative bg-white">
-            <div className="max-w-screen-lg mx-auto">
-              <Animation
-                initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-              >
-                <div className="-mt-20 py-20">
-                  <Divider />
-                  <h3 className="font-bold text-4xl text-slate-900 mb-4">
-                    CONTACT US
-                  </h3>
-                  <p className="text-lg text-zinc-500">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                  <div className="my-20">
-                    <form>
-                      <input
-                        type="text"
-                        placeholder="Email"
-                        className="w-full p-4 font-bold border-2 border-slate-900 border-b-0"
-                      />
-                      <textarea
-                        className="w-full p-4 mb-4 font-bold border-2 border-slate-900 h-80"
-                        placeholder="Tu mensaje"
-                      />
-                      <button className="w-full p-4 text-white font-black bg-neutral-900">
-                        Enviar
-                      </button>
-                    </form>
-                  </div>
-                </div>
-              </Animation>
             </div>
           </div>
         </div>

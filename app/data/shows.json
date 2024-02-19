@@ -1,0 +1,63 @@
+[
+  {
+    "show": "Noches del Botanico",
+    "image": "/img/shows/show-13.jpeg",
+    "link": "/"
+  },
+  {
+    "show": "Steve Aoki",
+    "image": "/img/shows/show-5.jpg",
+    "link": "/"
+  },
+  {
+    "show": "Molotov",
+    "image": "/img/shows/show-4.jpg",
+    "link": ""
+  },
+  {
+    "show": "Tecate Pal Norte",
+    "image": "/img/shows/show-7.jpeg",
+    "link": "https://www.tecatepalnorte.com/"
+  },
+  {
+    "show": "Festival Internacional del Globo",
+    "image": "/img/shows/show-10.jpg",
+    "link": "/"
+  },
+
+  {
+    "show": "Allison",
+    "image": "/img/shows/show-2.jpg",
+    "link": "/"
+  },
+  {
+    "show": "La Onda",
+    "image": "/img/shows/show-11.jpg",
+    "link": "/"
+  },
+  {
+    "show": "XT4SIS",
+    "image": "/img/shows/show-9.jpg",
+    "link": "/"
+  },
+  {
+    "show": "Javier Blake",
+    "image": "/img/shows/show-3.jpeg",
+    "link": "/"
+  },
+  {
+    "show": "Besame Mucho Festival",
+    "image": "/img/shows/show-1.jpeg",
+    "link": "/https://www.besamemuchofestival.com/austin"
+  },
+  {
+    "show": "Alex Hoyer",
+    "image": "/img/shows/show-12.jpg",
+    "link": "https://www.alexhoyer.com"
+  },
+  {
+    "show": "XT4SIS Tour USA",
+    "image": "/img/shows/show-8.jpg",
+    "link": "/"
+  }
+]

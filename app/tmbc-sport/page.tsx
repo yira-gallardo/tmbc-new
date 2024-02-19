@@ -17,8 +17,8 @@ export default function TmbcSport() {
       >
         <section className="container max-w-screen-xl mx-auto py-40">
           <Divider />
-          <h2 className="text-2xl font-bold uppercase">TMBC SPORTS</h2>
-          <h3 className="text-center text-xl">PRÓXIMAMENTE</h3>
+          <h2 className="text-2xl font-bold uppercas py-3.5e">TMBC SPORTS</h2>
+          <h3 className="text-center text-4xl ">PRÓXIMAMENTE</h3>
         </section>
       </Animation>
       <Footer />
