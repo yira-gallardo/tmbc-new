@@ -17,7 +17,7 @@
 }
 
 .text-tmbc {
-  background: linear-gradient(to right, red, rgb(157, 0, 214), blue);
+  background: gray;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -27,7 +27,7 @@
   background: linear-gradient(to right, red, rgb(157, 0, 214), blue);
 }
 .link-tmbc:hover {
-  background: linear-gradient(to right, red, rgb(157, 0, 214), blue);
+  background: gray;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

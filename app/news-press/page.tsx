@@ -8,7 +8,7 @@ import Animation from "@/components/UI/Animation/Animation";
 export default function NewsPress() {
   return (
     <main>
-      <Nav />{" "}
+      <Nav />
       <Animation
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -22,7 +22,7 @@ export default function NewsPress() {
             <div className="col-span-1">
               <Link href="/news-press/1">
                 <Image
-                  src="/img/news/danna-box.jpg"
+                  src="/img/danna01.jpg"
                   alt="News 1"
                   width={600}
                   height={400}
@@ -52,7 +52,7 @@ export default function NewsPress() {
             <div className="col-span-1">
               <Link href="/news-press/1">
                 <Image
-                  src="/img/news/danna-box.jpg"
+                  src="/img/danna01.jpg"
                   alt="News 1"
                   width={600}
                   height={400}
@@ -81,7 +81,7 @@ export default function NewsPress() {
             <div className="col-span-1">
               <Link href="/news-press/1">
                 <Image
-                  src="/img/news/danna-box.jpg"
+                  src="/img/danna01.jpg"
                   alt="News 1"
                   width={600}
                   height={400}
@@ -110,7 +110,7 @@ export default function NewsPress() {
             <div className="col-span-1">
               <Link href="/news-press/1">
                 <Image
-                  src="/img/news/danna-box.jpg"
+                  src="/img/danna01.jpg"
                   alt="News 1"
                   width={600}
                   height={400}
@@ -139,7 +139,7 @@ export default function NewsPress() {
             <div className="col-span-1">
               <Link href="/news-press/1">
                 <Image
-                  src="/img/news/danna-box.jpg"
+                  src="/img/danna01.jpg"
                   alt="News 1"
                   width={600}
                   height={400}
@@ -168,7 +168,7 @@ export default function NewsPress() {
             <div className="col-span-1">
               <Link href="/news-press/1">
                 <Image
-                  src="/img/news/danna-box.jpg"
+                  src="/img/danna01.jpg"
                   alt="News 1"
                   width={600}
                   height={400}
@@ -197,7 +197,7 @@ export default function NewsPress() {
             <div className="col-span-1">
               <Link href="/news-press/1">
                 <Image
-                  src="/img/news/danna-box.jpg"
+                  src="/img/danna01.jpg"
                   alt="News 1"
                   width={600}
                   height={400}

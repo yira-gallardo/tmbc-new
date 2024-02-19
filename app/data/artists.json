@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Danna Paola",
+    "website": "https://www.dannaworld.com/",
+    "genre": "Pop",
+    "hometown": "Mexico City, Mexico",
+    "mainImage": "/img/danna01.jpg",
+    "socials": {
+      "instagram": "https://www.instagram.com/dannapaola/",
+      "twitter": "https://twitter.com/dannapaola",
+      "tiktok": "https://www.tiktok.com/@danna?lang=es",
+      "facebook": "https://www.facebook.com/dannapaola",
+      "spotify": "https://open.spotify.com/artist/3E6xrwgnVfYCrCs0ePERDz",
+      "appleMusic": "https://music.apple.com/us/artist/danna-paola/271521153"
+    },
+    "news": [
+      {
+        "title": "Danna Paola: el nuevo rostro de M·A·C Cosmetics",
+        "link": "https://es.rollingstone.com/danna-paola-el-nuevo-rostro-de-m%C2%B7a%C2%B7c-cosmetics/",
+        "image": "/img/danna01.jpg"
+      },
+      {
+        "title": "Danna Paola impacta en las prendas que amarás este Otoño-Invierno 2023",
+        "link": "https://vogue.mx/articulo/shein-x-danna-paola-coleccion-para-el-otono-invierno-2023",
+        "image": "/img/danna01.jpg"
+      },
+      {
+        "title": "Danna Paola cantaría el Himno Nacional en la pelea de 'Canelo' Álvarez contra Jermell Charlo",
+        "link": "https://www.excelsior.com.mx/funcion/danna-paola-cantara-himno-nacional-en-pelea-de-canelo-alvarez-contra-jermell-charlo/1608194",
+        "image": "/img/danna01.jpg"
+      },
+      {
+        "title": "Danna Paola y su exitoso debut en el Tomorrowland",
+        "link": "https://mx.hola.com/famosos/2023073048451/danna-paola-steve-aoki-paris-hilton-tomorrowland-presentacion/",
+        "image": "/img/danna01.jpg"
+      },
+      {
+        "title": "Danna Paola inicia una nueva era musical vestida de diseño mexicano",
+        "link": "https://www.vogue.mx/moda/articulo/danna-paola-significado-del-look-de-xt4s1s",
+        "image": "/img/danna01.jpg"
+      },
+      {
+        "title": "Danna Paola tiene las zapatillas deportivas que serán tendencia en otoño",
+        "link": "https://www.vogue.mx/moda/articulo/como-llevar-zapatillas-deportivas-puma-como-danna-paola",
+        "image": "/img/danna01.jpg"
+      },
+      {
+        "title": "Danna: Una historia de metamorfosis",
+        "link": "https://es.rollingstone.com/danna-una-historia-de-metamorfosis/",
+        "image": "/img/danna01.jpg"
+      },
+      {
+        "title": "Danna Paola conquista Miami con su XT4S1S Tour",
+        "link": "https://es.rollingstone.com/danna-paola-conquista-miami-con-su-xt4s1s-tour/",
+        "image": "/img/danna01.jpg"
+      },
+      {
+        "title": "Danna Paola es un ángel en el video de 'Tenemos que hablar'",
+        "link": "https://es.rollingstone.com/danna-paola-es-un-angel-en-el-video-de-tenemos-que-hablar/",
+        "image": "/img/danna01.jpg"
+      },
+      {
+        "title": "Danna Paola ha encontrado el éxtasis puro",
+        "link": "https://www.google.com/search?q=danna+paola+rolling+stone&sca_esv=580988201&tbm=nws&ei=bV5NZaXRC6vGkPIPvJWBuAg&start=30&sa=N&ved=2ahUKEwjlu9bw_LeCAxUrI0QIHbxKAIc4FBDw0wN6BAgCEA0&biw=1920&bih=963&dpr=1",
+        "image": "/img/danna01.jpg"
+      },
+      {
+        "title": "Danna Paola Is Ready to 'Conquer New Hearts' as She Plots First-Ever U.S. Tour",
+        "link": "https://www.rollingstone.com/music/music-latin/danna-paola-announces-first-us-tour-2023-1234730700/",
+        "image": "/img/danna01.jpg"
+      },
+      {
+        "title": "Danna Paola estrena nueva canción, 'Tenemos que hablar'; esto dice la letra",
+        "link": "https://www.milenio.com/espectaculos/musica/danna-paola-estrena-cancion-hablar-letra",
+        "image": "/img/danna01.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Mario Bautista",
+    "website": "mariobau.com",
+    "genre": "Pop",
+    "hometown": "Mexico City, Mexico",
+    "mainImage": "/img/mario01.jpg",
+    "socials": {
+      "instagram": "https://instagram.com/mariobautista?igshid=MTF2anhnMnkzamJuZg==",
+      "twitter": "https://x.com/mariobautista_?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
+      "tiktok": "https://www.tiktok.com/@mariobautistagil?_t=8hFZKW9zRIL&_r=1",
+      "facebook": "https://www.facebook.com/MarioBautistaa?mibextid=LQQJ4d",
+      "spotify": "https://open.spotify.com/artist/0AspLZGQkP38yddNoD0pLn?si=Fr9YUOVzS-eLGLVJLu2g5w",
+      "appleMusic": "https://music.apple.com/mx/artist/mario-bautista/940961039"
+    }
+  },
+  {
+    "name": "Allison",
+    "website": "/",
+    "genre": "Pop",
+    "hometown": "Mexico City, Mexico",
+    "mainImage": "/img/artists/allison.jpg",
+    "socials": {
+      "instagram": "https://instagram.com/allisonband?igshid=MXhleGkycTc4dW5mOA==",
+      "twitter": "https://x.com/allisonband?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
+      "tiktok": "https://www.tiktok.com/@allisonband?_t=8hFZQnkA8lK&_r=1",
+      "facebook": "https://www.facebook.com/Allisonoficial?mibextid=LQQJ4d",
+      "spotify": "https://open.spotify.com/artist/4AP5EFbVVcBv8cfyqO0oqr?si=kuFdnNY1TbWh4PIsFHlAqg",
+      "appleMusic": "https://music.apple.com/mx/artist/allison/1094679133"
+    }
+  },
+  {
+    "name": "Alex Hoyer",
+    "website": "/",
+    "genre": "Pop",
+    "hometown": "Mexico City, Mexico",
+    "mainImage": "/img/alex01.jpeg",
+    "socials": {
+      "instagram": "https://instagram.com/alexhoyer_?igshid=MXFsamNvMG1sMGlwZw==",
+      "twitter": "https://x.com/hoyerofficial?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
+      "tiktok": "https://www.tiktok.com/@alexhoyer?_t=8hFZS7rw9W1&_r=1",
+      "facebook": "https://www.facebook.com/OfficialHoyer?mibextid=LQQJ4d",
+      "spotify": "https://open.spotify.com/artist/45ztMs8dTg6GRQ41yY4xtr?si=k_uD0-wWS9CDuP2ERqFDkQ",
+      "appleMusic": "https://music.apple.com/mx/artist/alex-hoyer/1114657873"
+    }
+  },
+  {
+    "name": "Finde",
+    "website": "/",
+    "genre": "Pop",
+    "hometown": "Mexico City, Mexico",
+    "mainImage": "/img/artists/finde.jpg",
+    "socials": {
+      "instagram": "https://instagram.com/findeband?igshid=MzVvYmxzZnV4djQ2",
+      "twitter": "https://x.com/findeband?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
+      "facebook": "https://www.facebook.com/findeband?mibextid=LQQJ4d",
+      "spotify": "https://open.spotify.com/artist/1F9nkzoHCrTN7e1tuJUXDC?si=no6FZoGtSTadb3UBGAG1MQ",
+      "appleMusic": "https://music.apple.com/mx/artist/finde/257292260"
+    }
+  }
+]
