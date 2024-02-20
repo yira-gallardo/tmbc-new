@@ -4,36 +4,8 @@ import Footer from "@/components/Layout/Footer/Footer";
 import Nav from "@/components/Layout/Nav/Nav";
 import Animation from "@/components/UI/Animation/Animation";
 import Image from "next/image";
-import dynamic from "next/dynamic";
-
-const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 export default function About() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    responsive: [
-      {
-        breakpoint: 1024, // Width up to 1024px
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 480, // Width up to 480px
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-    ],
-  };
   return (
     <main>
       <Nav />
@@ -50,7 +22,7 @@ export default function About() {
           </div>
           <div className="container mx-auto relative bg-white">
             <div className="max-w-screen-lg mx-auto">
-              <div className="-mt-20 py-20">
+              <div className="mt-0 md:-mt-20 py-10 md:py-20 px-8 md:px-0">
                 <Animation
                   initial={{ opacity: 0, y: 100 }}
                   whileInView={{ opacity: 1, y: 0 }}

@@ -9,7 +9,7 @@ export default function Shows() {
   return (
     <main>
       <Nav />
-      <section className="container max-w-screen-xl mx-auto py-40">
+      <section className="container max-w-screen-xl mx-auto py-20 md:py-40 px-8 md:px-0">
         <Animation
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -15,9 +15,11 @@ export default function TmbcSport() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <section className="container max-w-screen-xl mx-auto py-40">
+        <section className="container max-w-screen-xl mx-auto py-40 px-8 md:px-0">
           <Divider />
-          <h2 className="text-2xl font-bold uppercas py-3.5e">TMBC SPORTS</h2>
+          <h2 className="text-2xl font-bold uppercas py-3.5e my-10">
+            TMBC SPORTS
+          </h2>
           <h3 className="text-center text-4xl ">PRÓXIMAMENTE</h3>
         </section>
       </Animation>
