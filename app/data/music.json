@@ -1,14 +1,26 @@
 [
   {
-    "name": "PARANOIA",
-    "image": "/img/covers/30.png",
-    "link": "https://open.spotify.com/intl-es/album/3yJW0HcMSssOheVWwXiOkq?si=L4Dux2eJTxy-Cr_xJ_YrEg"
-  },
-  {
     "name": "ANÓNIMO",
     "image": "/img/covers/32.jpg",
     "link": "https://open.spotify.com/intl-es/track/0F7B3ElpO7wSaoCMu6WjeZ?si=9d7bfda91d9744e4"
   },
+
+  {
+    "name": "DÍA VERDE",
+    "image": "/img/covers/34.jpg",
+    "link": "https://open.spotify.com/intl-es/album/7qYhGSebTK03rQem7qx35n?si=L4wjmpeSQO69mdxcRM9ZPQ"
+  },
+  {
+    "name": "AÚN TE QUIERO",
+    "image": "/img/covers/33.jpg",
+    "link": "https://open.spotify.com/intl-es/album/6ElZodBAzNw2Tsh7eFrK9u?si=E_m_7SYeSMieGiCTBDHjcA"
+  },
+  {
+    "name": "PARANOIA",
+    "image": "/img/covers/30.png",
+    "link": "https://open.spotify.com/intl-es/album/3yJW0HcMSssOheVWwXiOkq?si=L4Dux2eJTxy-Cr_xJ_YrEg"
+  },
+
   {
     "name": "BRINDO",
     "image": "/img/covers/16.png",
@@ -76,7 +88,7 @@
   },
   {
     "name": "MI MUNDO AMANCE HOY:",
-    "image": "/img/covers/16.png",
+    "image": "/img/covers/0.png",
     "link": "https://open.spotify.com/intl-es/track/60ZtzdmTRnnG71OaBjdgJm?si=5f45943e61cc448f"
   },
   {
@@ -143,10 +155,5 @@
     "name": "LINDA",
     "image": "/img/covers/29.png",
     "link": "https://open.spotify.com/intl-es/track/1Ju3hNFWkgMEp7xlgmrVKH?si=12237e76e8b74cb3"
-  },
-  {
-    "name": "MAL DE AMORES",
-    "image": "/img/covers/28.png",
-    "link": "https://open.spotify.com/intl-es/track/52lX6yuefRBXkALL00CI69?si=ea700e8e51ea4dc0"
   }
 ]

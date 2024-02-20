@@ -34,20 +34,23 @@ export default function About() {
                   <h2 className="text-4xl font-bold text-slate-900 mb-8">
                     ABOUT
                   </h2>
-                  <h3 className="text-lg text-zinc-500">¿Quiénes somos?</h3>
+
                   <h3 className="text-lg text-zinc-500">
                     TMBC es una agencia fundada en 2022 liderada por
                     personalidades que se han especializado por más de 15 años
                     en la industria del entretenimiento. Entre nuestros
                     principales servicios se encuentran el management y el
                     booking, así como la comercialización de nuestros artistas
-                    con marcas. <br></br>En poco tiempo, TMBC ha logrado
-                    posicionar a sus artistas en un alto nivel al hacerlos parte
-                    de los eventos más reconocidos en habla hispana y alrededor
-                    del mundo.<br></br> El brazo de la compañía se extiende para
-                    trabajar de manera continua con talentos internacionales. A
-                    corto plazo TMBC tiene el proyecto de expandir sus oficinas
-                    en EU y Latinoamérica.
+                    con marcas.
+                    <p>&nbsp;</p>
+                    En poco tiempo, TMBC ha logrado posicionar a sus artistas en
+                    un alto nivel al hacerlos parte de los eventos más
+                    reconocidos en habla hispana y alrededor del mundo.{" "}
+                    <p>&nbsp;</p>
+                    El brazo de la compañía se extiende para trabajar de manera
+                    continua con talentos internacionales. A corto plazo TMBC
+                    tiene el proyecto de expandir sus oficinas en EU y
+                    Latinoamérica.
                   </h3>
                 </Animation>
               </div>

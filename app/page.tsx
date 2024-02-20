@@ -50,11 +50,12 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <video autoPlay muted loop className="w-full">
+          <video autoPlay loop className="w-full">
             <source src="/img/tmbc-video.mp4" type="video/mp4" />
           </video>
         </Animation>
       </div>
+
       <section className="container mx-auto pt-0 md:pt-10">
         <div className="max-w-screen-xl mx-auto py-10 md:py-20 px-8 ">
           <Divider />
@@ -153,7 +154,7 @@ export default function Home() {
                   </h3>
                   <Divider color="white" />
                   <Link
-                    href="https://open.spotify.com/intl-es/track/0F7B3ElpO7wSaoCMu6WjeZ?si=9d7bfda91d9744e4"
+                    href="https://mariobautista.lnk.to/Anonimo"
                     target="_blank"
                     className="font-bold text-white uppercase"
                   >

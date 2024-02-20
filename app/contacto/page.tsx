@@ -35,11 +35,7 @@ export default function Contacto() {
                   <h3 className="font-bold text-4xl text-slate-900 mb-4">
                     CONTACT US
                   </h3>
-                  <p className="text-lg text-slate-900">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
+
                   <div className="my-20">
                     <form>
                       <input
