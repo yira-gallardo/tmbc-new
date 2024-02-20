@@ -23,9 +23,12 @@ export default function NewsPress() {
           <Divider />
           <h2 className="text-2xl font-bold uppercase">News / Press</h2>
           {NEWS.map((newsItem: any, numeroIndice: number) => (
-            <div className="grid grid-cols-4 gap-10 mt-10 items-center">
+            <div
+              key={numeroIndice}
+              className="grid grid-cols-4 gap-10 mt-10 items-center"
+            >
               <div className="col-span-4 md:col-span-1">
-                <Link key={numeroIndice} href={newsItem.link}>
+                <Link href={newsItem.link}>
                   <Image
                     src={newsItem.image}
                     alt="News 1"
