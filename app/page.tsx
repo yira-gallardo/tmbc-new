@@ -44,14 +44,14 @@ export default function Home() {
   return (
     <main className="overflow-hidden">
       <Nav />
-      <section className="container mx-auto p-8 md:p-0 md:pt-10">
-        <div className="flex justify-center items-center max-w-screen-lg mx-auto py-20 h-screen">
+      <section className="container mx-auto p-8 md:p-0 md:pt-10 ">
+        <div className="flex justify-center items-center max-w-screen-lg mx-auto py-20 h-screen ">
           <Animation
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <video autoPlay muted loop>
+            <video autoPlay muted loop className="">
               <source src="/img/tmbc-video.mp4" type="video/mp4" />
             </video>
           </Animation>
