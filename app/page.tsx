@@ -44,21 +44,19 @@ export default function Home() {
   return (
     <main className="overflow-hidden">
       <Nav />
-      <section className="container mx-auto p-8 md:p-0 md:pt-10 ">
-        <div className="flex justify-center items-center max-w-screen-lg mx-auto py-20 h-screen ">
-          <Animation
-            initial={{ opacity: 0, y: 100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <video autoPlay muted loop className="">
-              <source src="/img/tmbc-video.mp4" type="video/mp4" />
-            </video>
-          </Animation>
-        </div>
-      </section>
-      <section className="container mx-auto pt-10">
-        <div className="max-w-screen-xl mx-auto py-20 px-8 ">
+      <div className="mt-20 md:mt-0">
+        <Animation
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          <video autoPlay muted loop className="w-full">
+            <source src="/img/tmbc-video.mp4" type="video/mp4" />
+          </video>
+        </Animation>
+      </div>
+      <section className="container mx-auto pt-0 md:pt-10">
+        <div className="max-w-screen-xl mx-auto py-10 md:py-20 px-8 ">
           <Divider />
           <h2 className="text-2xl font-bold uppercase">News & Press</h2>
           <div className="my-20 ">
@@ -112,8 +110,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-neutral-900">
-        <div className="container mx-auto max-w-screen-xl py-20 px-4 sm:px-6 lg:px-8">
+      <section className="bg-neutral-900  pt-0 md:pt-10">
+        <div className="container mx-auto max-w-screen-xl py-10 py-20 px-8 sm:px-6 lg:px-8">
           <Divider color="white" />
           <h2 className="text-2xl font-bold text-white uppercase">
             Últimos Lanzamientos
@@ -167,8 +165,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="container mx-auto">
-        <div className="max-w-screen-xl mx-auto py-20">
+      <section className="container mx-auto pt-0">
+        <div className="max-w-screen-xl mx-auto py-10 md:py-20 px-8">
           <Divider />
           <h2 className="text-2xl font-bold uppercase">ARTISTS</h2>
           <section className="container mx-auto">
@@ -308,12 +306,12 @@ export default function Home() {
           </section>
         </div>
       </section>
-      <section className="container max-w-screen-xl mx-auto py-40">
+      <section className="container max-w-screen-xl mx-auto py-10 md:py-40 bg-white px-8">
         <Divider />
-        <h2 className="text-2xl font-bold uppercase">TMBC SPORTS</h2>
-        <h3 className="text-center text-4xl">PRÓXIMAMENTE</h3>
+        <h2 className="text-2xl font-bold uppercase my-4">TMBC SPORTS</h2>
+        <h3 className="text-center text-4xl my-2">PRÓXIMAMENTE</h3>
       </section>
-      <div className="bg-neutral-900">
+      <div className="bg-neutral-900 px-8">
         <div className="max-w-screen-lg mx-auto">
           <Animation
             initial={{ opacity: 0, y: 100 }}
@@ -321,7 +319,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <div className="bg-red -mt-20 py-40 text-slate-100">
+            <div className="bg-red py-10 md:py-40 text-slate-100">
               <Divider color="white" />
               <h3 className="font-bold text-4xl text-white mb-4">
                 OUR PARTNERS

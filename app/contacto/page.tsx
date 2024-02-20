@@ -8,7 +8,7 @@ export default function Contacto() {
   return (
     <main>
       <Nav />
-      <section>
+      <section className="py-20 px-8 md:px-0">
         <div className="mx-auto">
           <div className="container mx-auto relative ">
             <div className="max-w-screen-lg mx-auto">
