@@ -67,7 +67,7 @@ export default function Home() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              {NEWS.map((newsItem: any, numeroIndice: number) => (
+              {NEWS.slice(0, 2).map((newsItem: any, numeroIndice: number) => (
                 <Link
                   key={numeroIndice}
                   href={newsItem.link}
