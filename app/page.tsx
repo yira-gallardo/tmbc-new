@@ -50,7 +50,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <video autoPlay loop className="w-full">
+          <video autoPlay loop className="w-full" muted>
             <source src="/img/tmbc-video.mp4" type="video/mp4" />
           </video>
         </Animation>
