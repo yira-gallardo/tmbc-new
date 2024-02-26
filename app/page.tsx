@@ -190,6 +190,11 @@ export default function Home() {
                           }`}
                           style={{
                             backgroundImage: `url(${artist.mainImage})`,
+                            backgroundPosition: `${
+                              artist.backgroundPosition
+                                ? artist.backgroundPosition
+                                : "center"
+                            }`,
                           }}
                         >
                           <div className="absolute top-0 left-0 p-4">
