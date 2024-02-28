@@ -4,12 +4,29 @@ import Footer from "@/components/Layout/Footer/Footer";
 import Nav from "@/components/Layout/Nav/Nav";
 import Divider from "@/components/UI/Divider/Divider";
 import Animation from "@/components/UI/Animation/Animation";
-import ARTISTS from "@/app/data/artists.json";
+import { createClient } from "contentful";
 
-export default function NewsPress() {
-  const NEWS = ARTISTS.filter((artist) => artist.news !== undefined)
-    .map((artist) => artist.news)
-    .flat();
+async function getData() {
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  } as any);
+
+  const entries = await client.getEntries({
+    content_type: "pageBlogPost",
+  });
+
+  return {
+    props: {
+      posts: entries.items,
+    },
+  };
+}
+
+export default async function NewsPress() {
+  const data = await getData();
+  const { posts: postsData } = data.props;
+
   return (
     <main>
       <Nav />
@@ -22,15 +39,15 @@ export default function NewsPress() {
         <section className="container max-w-screen-xl mx-auto py-20 md:py-40 px-8 md:px-0">
           <Divider />
           <h2 className="text-2xl font-bold uppercase">News / Press</h2>
-          {NEWS.map((newsItem: any, numeroIndice: number) => (
+          {postsData.map((post: any, index: number) => (
             <div
-              key={numeroIndice}
+              key={index}
               className="grid grid-cols-4 gap-10 mt-10 items-center"
             >
               <div className="col-span-4 md:col-span-1">
-                <Link href={newsItem.link}>
+                <Link href={`/news/${post.fields.slug}`}>
                   <Image
-                    src={newsItem.image}
+                    src={`https:${post.fields.featuredImage.fields.file.url}`}
                     alt="News 1"
                     width={600}
                     height={400}
@@ -40,9 +57,12 @@ export default function NewsPress() {
               </div>
               <div className="col-span-4 md:col-span-3">
                 <h3 className="text-xl font-bold mt-5 text-slate-900"></h3>
-                <p className="text-sm mt-3"> {newsItem.title}</p>
+                <p className="text-sm mt-3"> {post.fields.title}</p>
 
-                <Link href="/" className="font-bold my-4 block">
+                <Link
+                  href={`/news/${post.fields.slug}`}
+                  className="font-bold my-4 block"
+                >
                   Ver más
                 </Link>
               </div>

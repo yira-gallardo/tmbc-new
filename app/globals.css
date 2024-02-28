@@ -78,3 +78,7 @@
 .imagen-escondida-derecha:hover .tmbc-socials {
   display: flex;
 }
+
+p {
+  margin: 20px 0 !important;
+}
