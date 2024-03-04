@@ -77,7 +77,7 @@ export default function Nav() {
                       ARTISTS
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/tmbc-sport"
                       className={classnames("link-tmbc", {
@@ -86,7 +86,7 @@ export default function Nav() {
                     >
                       TMBC SPORTS
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/contacto"
@@ -153,9 +153,9 @@ export default function Nav() {
               <li>
                 <Link href="/artistas">ARTISTS</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/tmbc-sport">TMBC SPORTS</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contacto">CONTACT</Link>
               </li>
