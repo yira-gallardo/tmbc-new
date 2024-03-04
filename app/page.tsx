@@ -36,7 +36,7 @@ export default function Home() {
       },
     ],
   };
-  // leer todas las propiedades "news" de cada item de ARTISTS y repartirlas en un array
+
   const NEWS = ARTISTS.filter((artist) => artist.news !== undefined)
     .map((artist) => artist.news)
     .flat();
@@ -302,11 +302,11 @@ export default function Home() {
           </section>
         </div>
       </section>
-      <section className="container max-w-screen-xl mx-auto py-10 md:py-40 bg-white px-8">
+      {/* <section className="container max-w-screen-xl mx-auto py-10 md:py-40 bg-white px-8">
         <Divider />
         <h2 className="text-2xl font-bold uppercase my-4">TMBC SPORTS</h2>
         <h3 className="text-center text-4xl my-2">PRÓXIMAMENTE</h3>
-      </section>
+      </section> */}
       <div className="bg-neutral-900 px-8">
         <div className="max-w-screen-lg mx-auto">
           <Animation

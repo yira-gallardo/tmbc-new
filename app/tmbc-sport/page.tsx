@@ -8,7 +8,7 @@ import Animation from "@/components/UI/Animation/Animation";
 export default function TmbcSport() {
   return (
     <main>
-      <Nav />
+      {/* <Nav />
       <Animation
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -23,7 +23,7 @@ export default function TmbcSport() {
           <h3 className="text-center text-4xl ">PRÓXIMAMENTE</h3>
         </section>
       </Animation>
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }
