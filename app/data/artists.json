@@ -105,5 +105,34 @@
       "appleMusic": "https://music.apple.com/mx/artist/delux/1676119116"
     },
     "backgroundPosition": "top center"
+  },
+  {
+    "name": "Karol",
+    "website": "/",
+    "genre": "Pop",
+    "hometown": "Mexico City, Mexico",
+    "mainImage": "/img/artists/karol.jpg",
+    "socials": {
+      "instagram": "https://www.instagram.com/karolsevillaofc/",
+      "twitter": "https://x.com/karolsevilla?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
+      "tiktok": "https://www.tiktok.com/@karolsevillaokay",
+      "facebook": "https://www.facebook.com/karolsevillaoficial",
+      "spotify": "https://open.spotify.com/intl-es/artist/6aBoKzSTjuIi0sY69XHLk3?si=-QHcXXe8R4SC15_nt8QpfA",
+      "youtube": "https://www.youtube.com/@KarolSevillaOF",
+      "appleMusic": " https://music.apple.com/fr/artist/karol-sevilla/1098278064"
+    },
+    "news": [
+      {
+        "title": "El Mexican Power en la música suena fuerte y claro ¡en el mundo!",
+        "link": "https://www.forbes.com.mx/danna-paola-y-el-feeling-musical-el-poder-mexicano-esta-presente/",
+        "image": "/img/news/img-2.jpeg"
+      },
+      {
+        "title": "Danna: Una historia de metamorfosis",
+        "link": "https://es.rollingstone.com/danna-una-historia-de-metamorfosis/",
+        "image": "/img/news/img-1.jpeg"
+      }
+    ],
+    "backgroundPosition": "top center"
   }
 ]
