@@ -230,7 +230,7 @@ export default function Home() {
                                 </svg>
                               </div>
                             </Link>
-                            <Link href="https://www.tiktok.com/@danna?lang=es">
+                            <Link href={artist.socials.tiktok}>
                               <div className="artist-social">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"

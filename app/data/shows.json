@@ -1,5 +1,10 @@
 [
   {
+    "show": "Danna Live",
+    "image": "/img/shows/show-14.jpg",
+    "link": "/"
+  },
+  {
     "show": "Noches del Botanico",
     "image": "/img/shows/show-13.jpeg",
     "link": "/"
@@ -7,6 +12,12 @@
   {
     "show": "Steve Aoki",
     "image": "/img/shows/show-5.jpg",
+    "link": "/"
+  },
+
+  {
+    "show": "Black eyed peas",
+    "image": "/img/shows/show-15.png",
     "link": "/"
   },
   {

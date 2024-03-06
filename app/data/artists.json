@@ -44,70 +44,7 @@
     }
   },
   {
-    "name": "Allison",
-    "website": "/",
-    "genre": "Pop",
-    "hometown": "Mexico City, Mexico",
-    "mainImage": "/img/artists/allison.jpg",
-    "socials": {
-      "instagram": "https://instagram.com/allisonband?igshid=MXhleGkycTc4dW5mOA==",
-      "twitter": "https://x.com/allisonband?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
-      "tiktok": "https://www.tiktok.com/@allisonband?_t=8hFZQnkA8lK&_r=1",
-      "facebook": "https://www.facebook.com/Allisonoficial?mibextid=LQQJ4d",
-      "spotify": "https://open.spotify.com/artist/4AP5EFbVVcBv8cfyqO0oqr?si=kuFdnNY1TbWh4PIsFHlAqg",
-      "youtube": "https://www.youtube.com/channel/UCFCFBfGHOv8wItbjwQPktyA",
-      "appleMusic": "https://music.apple.com/mx/artist/allison/1094679133"
-    }
-  },
-  {
-    "name": "Alex Hoyer",
-    "website": "/",
-    "genre": "Pop",
-    "hometown": "Mexico City, Mexico",
-    "mainImage": "/img/alex01.jpeg",
-    "socials": {
-      "instagram": "https://instagram.com/alexhoyer_?igshid=MXFsamNvMG1sMGlwZw==",
-      "twitter": "https://x.com/hoyerofficial?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
-      "tiktok": "https://www.tiktok.com/@alexhoyer?_t=8hFZS7rw9W1&_r=1",
-      "facebook": "https://www.facebook.com/OfficialHoyer?mibextid=LQQJ4d",
-      "spotify": "https://open.spotify.com/artist/45ztMs8dTg6GRQ41yY4xtr?si=k_uD0-wWS9CDuP2ERqFDkQ",
-      "youtube": "https://www.youtube.com/@alexhoyer",
-      "appleMusic": "https://music.apple.com/mx/artist/alex-hoyer/1114657873"
-    }
-  },
-  {
-    "name": "Finde",
-    "website": "/",
-    "genre": "Pop",
-    "hometown": "Mexico City, Mexico",
-    "mainImage": "/img/artists/finde.jpg",
-    "socials": {
-      "instagram": "https://instagram.com/findeband?igshid=MzVvYmxzZnV4djQ2",
-      "twitter": "https://x.com/findeband?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
-      "facebook": "https://www.facebook.com/findeband?mibextid=LQQJ4d",
-      "spotify": "https://open.spotify.com/artist/1F9nkzoHCrTN7e1tuJUXDC?si=no6FZoGtSTadb3UBGAG1MQ",
-      "youtube": " https://www.youtube.com/@FindeBand",
-      "appleMusic": "https://music.apple.com/mx/artist/finde/257292260"
-    }
-  },
-  {
-    "name": "Delux",
-    "website": "/",
-    "genre": "Pop",
-    "hometown": "Mexico City, Mexico",
-    "mainImage": "/img/artists/deluxx.jpg",
-    "socials": {
-      "instagram": " https://www.instagram.com/deluxrock/",
-      "twitter": "https://x.com/delux?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
-      "facebook": "https://www.facebook.com/deluxrock",
-      "spotify": "https://open.spotify.com/intl-es/artist/4VIdUXSfXMQpNulb1L0FUz?si=UJ8N6H_aTTueOGZO854suQ&nd=1&dlsi=c8651d96bb7c4c10",
-      "youtube": " https://www.youtube.com/@DELUXROCK",
-      "appleMusic": "https://music.apple.com/mx/artist/delux/1676119116"
-    },
-    "backgroundPosition": "top center"
-  },
-  {
-    "name": "Karol",
+    "name": "Karol Sevilla",
     "website": "/",
     "genre": "Pop",
     "hometown": "Mexico City, Mexico",
@@ -133,6 +70,55 @@
         "image": "/img/news/img-1.jpeg"
       }
     ],
+    "backgroundPosition": "top center"
+  },
+  {
+    "name": "Alex Hoyer",
+    "website": "/",
+    "genre": "Pop",
+    "hometown": "Mexico City, Mexico",
+    "mainImage": "/img/alex01.jpeg",
+    "socials": {
+      "instagram": "https://instagram.com/alexhoyer_?igshid=MXFsamNvMG1sMGlwZw==",
+      "twitter": "https://x.com/hoyerofficial?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
+      "tiktok": "https://www.tiktok.com/@alexhoyer?_t=8hFZS7rw9W1&_r=1",
+      "facebook": "https://www.facebook.com/OfficialHoyer?mibextid=LQQJ4d",
+      "spotify": "https://open.spotify.com/artist/45ztMs8dTg6GRQ41yY4xtr?si=k_uD0-wWS9CDuP2ERqFDkQ",
+      "youtube": "https://www.youtube.com/@alexhoyer",
+      "appleMusic": "https://music.apple.com/mx/artist/alex-hoyer/1114657873"
+    }
+  },
+  {
+    "name": "Allison",
+    "website": "/",
+    "genre": "Pop",
+    "hometown": "Mexico City, Mexico",
+    "mainImage": "/img/artists/allison.jpg",
+    "socials": {
+      "instagram": "https://instagram.com/allisonband?igshid=MXhleGkycTc4dW5mOA==",
+      "twitter": "https://x.com/allisonband?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
+      "tiktok": "https://www.tiktok.com/@allisonband?_t=8hFZQnkA8lK&_r=1",
+      "facebook": "https://www.facebook.com/Allisonoficial?mibextid=LQQJ4d",
+      "spotify": "https://open.spotify.com/artist/4AP5EFbVVcBv8cfyqO0oqr?si=kuFdnNY1TbWh4PIsFHlAqg",
+      "youtube": "https://www.youtube.com/channel/UCFCFBfGHOv8wItbjwQPktyA",
+      "appleMusic": "https://music.apple.com/mx/artist/allison/1094679133"
+    }
+  },
+  {
+    "name": "Delux",
+    "website": "/",
+    "genre": "Pop",
+    "hometown": "Mexico City, Mexico",
+    "mainImage": "/img/artists/deluxx.jpg",
+    "socials": {
+      "instagram": " https://www.instagram.com/deluxrock/",
+      "twitter": "https://x.com/delux?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
+      "tiktok": "https://www.tiktok.com/@deluxrock",
+      "facebook": "https://www.facebook.com/deluxrock",
+      "spotify": "https://open.spotify.com/intl-es/artist/4VIdUXSfXMQpNulb1L0FUz?si=UJ8N6H_aTTueOGZO854suQ&nd=1&dlsi=c8651d96bb7c4c10",
+      "youtube": " https://www.youtube.com/@DELUXROCK",
+      "appleMusic": "https://music.apple.com/mx/artist/delux/1676119116"
+    },
     "backgroundPosition": "top center"
   }
 ]
