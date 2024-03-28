@@ -178,7 +178,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold uppercase">ARTISTS</h2>
           <section className="container mx-auto">
             <div className="max-w-screen-xl mx-auto py-20">
-              <div className="grid grid-cols-2 py-10 items-center">
+              <div className="grid grid-cols-1 md:grid-cols-2 py-10 items-center">
                 {ARTISTS.map((artist, conteo) => (
                   <div key={conteo} className="relative ">
                     <Animation

@@ -14,12 +14,6 @@
     "image": "/img/shows/show-5.jpg",
     "link": "/"
   },
-
-  {
-    "show": "Black eyed peas",
-    "image": "/img/shows/show-15.png",
-    "link": "/"
-  },
   {
     "show": "Molotov",
     "image": "/img/shows/show-4.jpg",
@@ -61,11 +55,7 @@
     "image": "/img/shows/show-1.jpeg",
     "link": "/https://www.besamemuchofestival.com/austin"
   },
-  {
-    "show": "Alex Hoyer",
-    "image": "/img/shows/show-12.jpg",
-    "link": "https://www.alexhoyer.com"
-  },
+
   {
     "show": "XT4SIS Tour USA",
     "image": "/img/shows/show-8.jpg",
