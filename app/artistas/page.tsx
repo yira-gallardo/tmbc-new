@@ -13,7 +13,7 @@ export default function Artist() {
       <section className="container mx-auto">
         <div className="max-w-screen-xl mx-auto py-10 md:py-20 px-8 md:px-0">
           <Divider />
-          <h2 className="text-2xl font-bold uppercase">ARTISTS</h2>
+          <h2 className="text-2xl font-bold uppercase">TALENTS</h2>
           <section className="container mx-auto">
             <div className="max-w-screen-xl mx-auto py-20">
               <div className="grid grid-cols-1 md:grid-cols-2 py-10 items-center">

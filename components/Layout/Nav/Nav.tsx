@@ -74,7 +74,7 @@ export default function Nav() {
                         "text-tmbc": pathname === "/artistas",
                       })}
                     >
-                      ARTISTS
+                      TALENTS
                     </Link>
                   </li>
                   {/* <li>
