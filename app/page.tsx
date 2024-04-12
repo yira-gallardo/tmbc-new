@@ -1,4 +1,3 @@
-"use client";
 import Footer from "@/components/Layout/Footer/Footer";
 import Nav from "@/components/Layout/Nav/Nav";
 import Divider from "@/components/UI/Divider/Divider";
@@ -7,6 +6,7 @@ import Link from "next/link";
 import Animation from "@/components/UI/Animation/Animation";
 import dynamic from "next/dynamic";
 import ARTISTS from "@/app/data/artists.json";
+import News from "@/components/Layout/News/News";
 
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
@@ -62,61 +62,7 @@ export default function Home() {
           </div>
         </Animation>
       </div>
-      <section className="container mx-auto pt-0 md:pt-10">
-        <div className="max-w-screen-xl mx-auto py-10 md:py-20 px-8 ">
-          <Divider />
-          <h2 className="text-2xl font-bold uppercase">News & Press</h2>
-          <div className="my-20 ">
-            <Animation
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-            >
-              {NEWS.slice(0, 2).map((newsItem: any, numeroIndice: number) => (
-                <Link
-                  key={numeroIndice}
-                  href={newsItem.link}
-                  target="_blank"
-                  className="grid grid-cols-1 sm:grid-cols-2 items-center hover:bg-zinc-100"
-                >
-                  <div
-                    className={`w-full h-[400px] relative ${
-                      numeroIndice % 2 ? "md:hidden" : ""
-                    }`}
-                  >
-                    <Image
-                      src={newsItem.image}
-                      alt="Press 1"
-                      layout="fill"
-                      objectFit="cover"
-                    />
-                  </div>
-                  <div className="p-4 sm:p-10">
-                    <h4 className="text-xl sm:text-3xl font-bold uppercase">
-                      {newsItem.title}
-                    </h4>
-
-                    <button className="font-bold my-4 hover:underline">
-                      Ver más
-                    </button>
-                  </div>
-                  {numeroIndice % 2 === 1 && (
-                    <div className="w-full h-[400px] relative hidden md:block">
-                      <Image
-                        src={newsItem.image}
-                        alt="Press 1"
-                        layout="fill"
-                        objectFit="cover"
-                      />
-                    </div>
-                  )}
-                </Link>
-              ))}
-            </Animation>
-          </div>
-        </div>
-      </section>
+      <News />
       <section className="bg-neutral-900  pt-0 md:pt-10">
         <div className="container mx-auto max-w-screen-xl py-10 py-20 px-8 sm:px-6 lg:px-8">
           <Divider color="white" />
@@ -175,7 +121,7 @@ export default function Home() {
       <section className="container mx-auto pt-0">
         <div className="max-w-screen-xl mx-auto py-10 md:py-20 px-8">
           <Divider />
-          <h2 className="text-2xl font-bold uppercase">ARTISTS</h2>
+          <h2 className="text-2xl font-bold uppercase">TALENTS</h2>
           <section className="container mx-auto">
             <div className="max-w-screen-xl mx-auto py-20">
               <div className="grid grid-cols-1 md:grid-cols-2 py-10 items-center">

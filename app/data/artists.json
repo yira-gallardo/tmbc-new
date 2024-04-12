@@ -44,6 +44,38 @@
     }
   },
   {
+    "name": "Alex Hoyer",
+    "website": "/",
+    "genre": "Pop",
+    "hometown": "Mexico City, Mexico",
+    "mainImage": "/img/alex01.jpeg",
+    "socials": {
+      "instagram": "https://instagram.com/alexhoyer_?igshid=MXFsamNvMG1sMGlwZw==",
+      "twitter": "https://x.com/hoyerofficial?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
+      "tiktok": "https://www.tiktok.com/@alexhoyer?_t=8hFZS7rw9W1&_r=1",
+      "facebook": "https://www.facebook.com/OfficialHoyer?mibextid=LQQJ4d",
+      "spotify": "https://open.spotify.com/artist/45ztMs8dTg6GRQ41yY4xtr?si=k_uD0-wWS9CDuP2ERqFDkQ",
+      "youtube": "https://www.youtube.com/@alexhoyer",
+      "appleMusic": "https://music.apple.com/mx/artist/alex-hoyer/1114657873"
+    }
+  },
+  {
+    "name": "Clarissa Molina",
+    "website": "",
+    "genre": "Pop",
+    "hometown": "Mexico City, Mexico",
+    "mainImage": "/img/artists/clarissa.png",
+    "socials": {
+      "instagram": "https://www.instagram.com/clarissamolina/?hl=en",
+      "twitter": "https://x.com/mariobautista_?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
+      "tiktok": " https://www.tiktok.com/@clarissamolinac",
+      "facebook": "https://www.facebook.com/ClarissaMolinaC/",
+      "spotify": "",
+      "appleMusic": ""
+    }
+  },
+
+  {
     "name": "Karol Sevilla",
     "website": "/",
     "genre": "Pop",
@@ -72,22 +104,7 @@
     ],
     "backgroundPosition": "top center"
   },
-  {
-    "name": "Alex Hoyer",
-    "website": "/",
-    "genre": "Pop",
-    "hometown": "Mexico City, Mexico",
-    "mainImage": "/img/alex01.jpeg",
-    "socials": {
-      "instagram": "https://instagram.com/alexhoyer_?igshid=MXFsamNvMG1sMGlwZw==",
-      "twitter": "https://x.com/hoyerofficial?s=21&t=jOMXuFf-hUP2NIFrs9v4vQ",
-      "tiktok": "https://www.tiktok.com/@alexhoyer?_t=8hFZS7rw9W1&_r=1",
-      "facebook": "https://www.facebook.com/OfficialHoyer?mibextid=LQQJ4d",
-      "spotify": "https://open.spotify.com/artist/45ztMs8dTg6GRQ41yY4xtr?si=k_uD0-wWS9CDuP2ERqFDkQ",
-      "youtube": "https://www.youtube.com/@alexhoyer",
-      "appleMusic": "https://music.apple.com/mx/artist/alex-hoyer/1114657873"
-    }
-  },
+
   {
     "name": "Allison",
     "website": "/",
