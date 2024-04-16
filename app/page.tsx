@@ -4,44 +4,11 @@ import Divider from "@/components/UI/Divider/Divider";
 import Image from "next/image";
 import Link from "next/link";
 import Animation from "@/components/UI/Animation/Animation";
-import dynamic from "next/dynamic";
 import ARTISTS from "@/app/data/artists.json";
 import News from "@/components/Layout/News/News";
-export const dynamic2 = "force-dynamic";
-
-const Slider = dynamic(() => import("react-slick"), { ssr: false });
+export const dynamic = "force-dynamic";
 
 export default function Home() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    responsive: [
-      {
-        breakpoint: 1024, // Width up to 1024px
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 480, // Width up to 480px
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-    ],
-  };
-
-  const NEWS = ARTISTS.filter((artist) => artist.news !== undefined)
-    .map((artist) => artist.news)
-    .flat();
-
   return (
     <main className="overflow-hidden">
       <Nav />
@@ -249,11 +216,6 @@ export default function Home() {
           </section>
         </div>
       </section>
-      {/* <section className="container max-w-screen-xl mx-auto py-10 md:py-40 bg-white px-8">
-        <Divider />
-        <h2 className="text-2xl font-bold uppercase my-4">TMBC SPORTS</h2>
-        <h3 className="text-center text-4xl my-2">PRÓXIMAMENTE</h3>
-      </section> */}
       <div className="bg-neutral-900 px-8">
         <div className="max-w-screen-lg mx-auto">
           <Animation
