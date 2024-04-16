@@ -7,6 +7,7 @@ import Animation from "@/components/UI/Animation/Animation";
 import dynamic from "next/dynamic";
 import ARTISTS from "@/app/data/artists.json";
 import News from "@/components/Layout/News/News";
+export const dynamic2 = "force-dynamic";
 
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
