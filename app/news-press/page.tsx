@@ -5,6 +5,7 @@ import Nav from "@/components/Layout/Nav/Nav";
 import Divider from "@/components/UI/Divider/Divider";
 import Animation from "@/components/UI/Animation/Animation";
 import { createClient } from "contentful";
+export const dynamic = "force-dynamic";
 
 async function getData() {
   const client = createClient({
