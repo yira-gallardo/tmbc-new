@@ -51,7 +51,7 @@ export default async function NewsPress({
           <div className="flex items-center my-4 gap-10">
             <div className="w-2/12">
               <Image
-                src={`https:${postData.fields.featuredImage.fields.file.url}`}
+                src={`https:${postData.fields.image.fields.file.url}`}
                 alt={postData.fields.title}
                 width={1000}
                 height={1000}

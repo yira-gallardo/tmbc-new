@@ -11,7 +11,7 @@ async function getData() {
   } as any);
 
   const entries = await client.getEntries({
-    content_type: "pageBlogPost",
+    content_type: "entradas",
   });
 
   return {
@@ -50,7 +50,7 @@ export default async function News() {
                   }`}
                 >
                   <Image
-                    src={`https:${post.fields.featuredImage.fields.file.url}`}
+                    src={`https:${post.fields.image.fields.file.url}`}
                     alt="Press 1"
                     layout="fill"
                     objectFit="cover"
@@ -67,7 +67,7 @@ export default async function News() {
                 {numeroIndice % 2 === 1 && (
                   <div className="w-full h-[400px] relative hidden md:block">
                     <Image
-                      src={`https:${post.fields.featuredImage.fields.file.url}`}
+                      src={`https:${post.fields.image.fields.file.url}`}
                       alt="Press 1"
                       layout="fill"
                       objectFit="cover"

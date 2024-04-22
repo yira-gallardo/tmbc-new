@@ -14,7 +14,7 @@ async function getData() {
   } as any);
 
   const entries = await client.getEntries({
-    content_type: "pageBlogPost",
+    content_type: "entradas",
   });
 
   return {
@@ -48,7 +48,7 @@ export default async function NewsPress() {
               <div className="col-span-4 md:col-span-1">
                 <Link href={`/news/${post.fields.slug}`}>
                   <Image
-                    src={`https:${post.fields.featuredImage.fields.file.url}`}
+                    src={`https:${post.fields.image.fields.file.url}`}
                     alt="News 1"
                     width={600}
                     height={400}
