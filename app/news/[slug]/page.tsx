@@ -14,7 +14,7 @@ async function getPostBySlug(slug: string) {
   } as any);
 
   const entry = await client.getEntries({
-    content_type: "pageBlogPost",
+    content_type: "entradas",
     "fields.slug": slug,
   });
 
