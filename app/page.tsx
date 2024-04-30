@@ -226,9 +226,7 @@ export default function Home() {
           >
             <div className="bg-red py-10 md:py-40 text-slate-100">
               <Divider color="white" />
-              <h3 className="font-bold text-4xl text-white mb-4">
-                OUR PARTNERS
-              </h3>
+              <h3 className="font-bold text-4xl text-white mb-4">SPONSORS</h3>
               <div className="grid pt-16 sm:grid-cols-4 gap-4">
                 <div className="">
                   <Image

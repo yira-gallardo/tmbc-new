@@ -14,11 +14,7 @@
     "image": "/img/shows/show-5.jpg",
     "link": "/"
   },
-  {
-    "show": "Molotov",
-    "image": "/img/shows/show-4.jpg",
-    "link": ""
-  },
+
   {
     "show": "Tecate Pal Norte",
     "image": "/img/shows/show-7.jpeg",
@@ -45,11 +41,7 @@
     "image": "/img/shows/show-9.jpg",
     "link": "/"
   },
-  {
-    "show": "Javier Blake",
-    "image": "/img/shows/show-3.jpeg",
-    "link": "/"
-  },
+
   {
     "show": "Besame Mucho Festival",
     "image": "/img/shows/show-1.jpeg",
