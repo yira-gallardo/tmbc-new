@@ -41,16 +41,27 @@
     "image": "/img/shows/show-9.jpg",
     "link": "/"
   },
-
   {
     "show": "Besame Mucho Festival",
     "image": "/img/shows/show-1.jpeg",
     "link": "/https://www.besamemuchofestival.com/austin"
   },
-
   {
     "show": "XT4SIS Tour USA",
     "image": "/img/shows/show-8.jpg",
+    "link": "/"
+  }
+  ,
+  {
+    "show": "Tecate Peninsula",
+    "image": "/img/shows/show-16.jpeg",
+    "link": "/"
+  }
+  ,
+
+  {
+    "show": "Allison",
+    "image": "/img/shows/show-18.jpeg",
     "link": "/"
   }
 ]

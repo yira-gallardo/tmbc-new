@@ -25,6 +25,8 @@ export default async function News() {
   const data = await getData();
   const { posts: postsData } = data.props;
 
+
+
   return (
     <section className="container mx-auto pt-0 md:pt-10">
       <div className="max-w-screen-xl mx-auto py-10 md:py-20 px-8 ">
@@ -37,7 +39,7 @@ export default async function News() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            {postsData.slice(0, 8).map((post: any, numeroIndice: number) => (
+            {postsData.slice(0, 2).map((post: any, numeroIndice: number) => (
               <Link
                 key={numeroIndice}
                 href={`/news/${post.fields.slug}`}
