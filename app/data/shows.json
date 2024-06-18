@@ -1,7 +1,12 @@
 [
   {
     "show": "Danna Live",
-    "image": "/img/shows/show-14.jpg",
+    "image": "/img/shows/show-20.jpg",
+    "link": "/"
+  },
+   {
+    "show": "Danna Live",
+    "image": "/img/shows/show-19.jpg",
     "link": "/"
   },
   {
@@ -12,6 +17,11 @@
   {
     "show": "Steve Aoki",
     "image": "/img/shows/show-5.jpg",
+    "link": "/"
+  },
+  {
+    "show": "Steve Aoki",
+    "image": "/img/shows/show-21.jpg",
     "link": "/"
   },
 

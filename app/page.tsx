@@ -47,7 +47,7 @@ export default function Home() {
               >
                 <div>
                   <Image
-                    src="/img/covers/32.jpg"
+                    src="/img/childstar.png"
                     alt="Last Release 1"
                     width={800}
                     height={800}
@@ -67,14 +67,14 @@ export default function Home() {
                     className=" 
                     text-3xl sm:text-4xl lg:text-5xl font-bold text-white uppercase text-center sm:text-left"
                   >
-                    ANÓNIMO
+                  CHILDSTAR
                   </h4>
                   <h3 className="text-xl sm:text-2xl font-bold text-white uppercase mt-2">
-                    Mario Bautista y Karol Sevilla
+                    DANNA
                   </h3>
                   <Divider color="white" />
                   <Link
-                    href="https://mariobautista.lnk.to/Anonimo"
+                    href="https://universalmusicmexico.lnk.to/2024"
                     target="_blank"
                     className="font-bold text-white uppercase"
                   >
